@@ -7,19 +7,41 @@ public class ClickManager : MonoBehaviour
 {
     public static ClickManager Instance { get; private set; }
 
+    public enum NumberType
+    {
+        StampingCat, // Number of stamping cats
+        DeliveryCat, // Number of delivery cats
+        NewLetters, // 
+        StampedLetters,
+        RateOfNewLetters,
+        Number
+
+    }
+
     public static event EventHandler NumberOfNewLettersChanged;
     public static event EventHandler NumberOfStampedLettersChanged;
     public static event EventHandler NumberOfDeliveredLettersChanged;
 
-    private float totalNumberOfCats;
+    public static event EventHandler NumberOfStampingCatsChanged;
+    public static event EventHandler NumberOfDeliveringCatsChanged;
+
+    private int totalNumberOfStampingCats; // infinite
+    private int totalNumberOfDeliveringCats; // maxed out 10
+
+    [SerializeField] private int MaxNumberOfDeliveringCats;
+
     private float totalNumberOfNewLetters;
     private float totalNumberOfStampedLetters;
     private float totalNumberOfDeliveredLetters;
 
+    private float currentNumberOfNewLetters;
+    private float currentNumberOfStampedLetters;
+    private float currentNumberOfDeliveredLetters;
+
+    // 1 letter = 1 cent
+
     private float numberOfNewLettersPerClick;
     private float numberOfStampedLettersPerClick;
-
-    private float speedOfDelivery;
 
     float newLetterTicker;
     float stampedLetterTicker;
@@ -28,6 +50,8 @@ public class ClickManager : MonoBehaviour
     private float newLetterPerSecond;
     private float stampedLetterPerSecond;
     private float sentLetterPerSecond;
+
+    private int totalNumberOfClicks;
 
     private void Awake()
     {
@@ -42,15 +66,21 @@ public class ClickManager : MonoBehaviour
     {
 
         // Setting up some variables, should be put into an init;
-        totalNumberOfCats = 1;
+        totalNumberOfDeliveringCats = 1;
+        totalNumberOfStampingCats = 0;
+
         totalNumberOfNewLetters = 0;
         totalNumberOfStampedLetters = 0;
         totalNumberOfDeliveredLetters = 0;
-        speedOfDelivery = 0f;
+
+        currentNumberOfNewLetters = 0;
+        currentNumberOfStampedLetters = 0;
+        currentNumberOfDeliveredLetters = 0;
 
         numberOfNewLettersPerClick = 1;
         numberOfStampedLettersPerClick = 1;
 
+        // automation variables
         newLetterPerSecond = 0;
         stampedLetterPerSecond = 0;
         sentLetterPerSecond = 0.1f;
@@ -72,11 +102,11 @@ public class ClickManager : MonoBehaviour
             newLetterTicker = 0;
 
             AddNewLetters(newLetterPerSecond / 10);
-            
+
         }
     }
 
-    
+
     private void StampedLetters_Tick()
     {
         stampedLetterTicker += Time.deltaTime;
@@ -85,24 +115,24 @@ public class ClickManager : MonoBehaviour
         {
             stampedLetterTicker = 0;
 
-            var lettersToAdd = stampedLetterPerSecond / 10;
+            var lettersToAdd = totalNumberOfStampingCats == 0 ? totalNumberOfStampingCats : totalNumberOfStampingCats * (stampedLetterPerSecond / 10);
 
-            if (lettersToAdd > totalNumberOfNewLetters) return;
+            if (lettersToAdd > currentNumberOfNewLetters) return;
 
-            AddStampedLetters(lettersToAdd);     
+            AddStampedLetters(lettersToAdd);
         }
     }
 
-    
+
     private void SentLetters_Tick()
     {
         sentLetterTicker += Time.deltaTime;
 
         if (sentLetterTicker >= 0.1f)
         {
-            var lettersToAdd = sentLetterPerSecond / 10;
+            var lettersToAdd = totalNumberOfDeliveringCats == 0 ? totalNumberOfDeliveringCats : totalNumberOfDeliveringCats * (sentLetterPerSecond / 10);
 
-            if (lettersToAdd > totalNumberOfStampedLetters) return;
+            if (lettersToAdd > currentNumberOfStampedLetters) return;
 
             DeliverLetter(lettersToAdd);
 
@@ -112,81 +142,148 @@ public class ClickManager : MonoBehaviour
 
     public void AddNewLetters(float amount)
     {
+        currentNumberOfNewLetters += amount;
         totalNumberOfNewLetters += amount;
 
         NumberOfNewLettersChanged?.Invoke(this, EventArgs.Empty);
-
-        print($"Total New: {totalNumberOfNewLetters}");
     }
 
     public void AddStampedLetters(float amount)
     {
-        if(totalNumberOfNewLetters <= 0)
+        if (currentNumberOfNewLetters <= 0)
         {
             return;
         }
 
         var numOfLetters = amount;
 
-        if (totalNumberOfNewLetters < amount)
+        if (currentNumberOfNewLetters < amount)
         {
-            numOfLetters = amount - totalNumberOfNewLetters;
-            totalNumberOfNewLetters = 0;
+            numOfLetters = amount - currentNumberOfNewLetters;
+            currentNumberOfNewLetters = 0;
         }
         else
         {
-            totalNumberOfNewLetters -= amount;
+            currentNumberOfNewLetters -= amount;
         }
 
+        currentNumberOfStampedLetters += numOfLetters;
         totalNumberOfStampedLetters += numOfLetters;
 
         NumberOfNewLettersChanged?.Invoke(this, EventArgs.Empty);
         NumberOfStampedLettersChanged?.Invoke(this, EventArgs.Empty);
-
-        print($"Total Stamped: {totalNumberOfStampedLetters}");
     }
 
     public void DeliverLetter(float amount)
     {
-        if (totalNumberOfStampedLetters <= 0)
+        if (currentNumberOfStampedLetters <= 0)
         {
             return;
         }
 
         var numOfLetters = amount;
 
-        if (totalNumberOfStampedLetters < amount)
+        if (currentNumberOfStampedLetters < amount)
         {
-            numOfLetters = amount - totalNumberOfStampedLetters;
-            totalNumberOfStampedLetters = 0;
+            numOfLetters = amount - currentNumberOfStampedLetters;
+            currentNumberOfStampedLetters = 0;
         }
         else
         {
-            totalNumberOfStampedLetters -= amount;
+            currentNumberOfStampedLetters -= amount;
         }
 
+        currentNumberOfDeliveredLetters += numOfLetters;
         totalNumberOfDeliveredLetters += numOfLetters;
 
         NumberOfStampedLettersChanged?.Invoke(this, EventArgs.Empty);
         NumberOfDeliveredLettersChanged?.Invoke(this, EventArgs.Empty);
-
-        print($"Total Delivered: {totalNumberOfDeliveredLetters}");
     }
 
 
-    public float GetNewLetters() => totalNumberOfNewLetters;
+    public float GetCurrentNewLetters() => currentNumberOfNewLetters;
 
-    public float GetStampedLetters() => totalNumberOfStampedLetters;
+    public float GetCurrentStampedLetters() => currentNumberOfStampedLetters;
 
-    public float GetDeliveredLetters() => totalNumberOfDeliveredLetters;
+    public float GetCurrentDeliveredLetters() => currentNumberOfDeliveredLetters;
+
+    public int GetNumberOfStampingCats() => totalNumberOfStampingCats;
+    public int GetNumberOfDeliveringCats() => totalNumberOfDeliveringCats;
 
     public void AddNewLetters_OnClick()
     {
+        totalNumberOfClicks++;
         AddNewLetters(numberOfNewLettersPerClick);
     }
 
     public void AddStampedLetters_OnClick()
     {
+        totalNumberOfClicks++;
         AddStampedLetters(numberOfStampedLettersPerClick);
     }
+
+    public void IncreaseStampingCat_OnClick()
+    {
+        totalNumberOfClicks++;
+        // Have this number be changed in the future to allow for more cats to be purchased at once
+        var numOfCats = 1;
+        AddStampingCats(numOfCats);
+        
+    }
+
+    public void IncreaseDeliveryCat_OnClick()
+    {
+        totalNumberOfClicks++;
+        AddDeliveringCat();
+    }
+
+    // Adding in cats
+    public void AddStampingCats(int numOfCats)
+    {
+        // Can add as many as you like
+        totalNumberOfStampingCats += numOfCats;
+        NumberOfStampingCatsChanged?.Invoke(this, EventArgs.Empty);
+    }
+
+    public void AddDeliveringCat()
+    {
+        if(totalNumberOfDeliveringCats >= MaxNumberOfDeliveringCats)
+        {
+            Debug.Log("Maximum nunber of delivering cats reached");
+
+            return;
+        }
+
+        // Have a limited amount of new cats
+        totalNumberOfDeliveringCats++;
+        NumberOfDeliveringCatsChanged?.Invoke(this, EventArgs.Empty);
+    }
+
+
+    // Increase the rate of automation
+    public void IncreaseRateOfNewLetters(float increasedRate)
+    {
+        newLetterPerSecond += increasedRate;
+    }
+
+    public void IncreaseRateOfStampedLetters(float increasedRate)
+    {
+        stampedLetterPerSecond += increasedRate;
+    }
+
+    public void IncreaseRateOfDeliveredLetters(float increasedRate)
+    {
+        sentLetterPerSecond += increasedRate;
+    }
+
+    public void IncreaseNumberOfLettersStampedPerClick(int num)
+    {
+        numberOfStampedLettersPerClick += num;
+    }
+
+    public void IncreaseNumberOfNewLettersPerClick(int num)
+    {
+        numberOfNewLettersPerClick += num;
+    }
+
 }
