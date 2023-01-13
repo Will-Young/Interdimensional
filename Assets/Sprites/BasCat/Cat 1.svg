@@ -1,0 +1,1358 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="Cat 1.svg"
+   inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatPage.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect898"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect894"
+       is_visible="true"
+       pattern="M 0,5 C 0,2.24 2.24,0 5,0 7.76,0 10,2.24 10,5 10,7.76 7.76,10 5,10 2.24,10 0,7.76 0,5 Z"
+       copytype="single_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect892"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect887"
+       is_visible="true"
+       pattern="M 0,5 C 0,2.24 2.24,0 5,0 7.76,0 10,2.24 10,5 10,7.76 7.76,10 5,10 2.24,10 0,7.76 0,5 Z"
+       copytype="single_stretched"
+       prop_scale="-0.637142"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect883"
+       is_visible="true"
+       pattern="M 0,5 C 0,2.24 2.24,0 5,0 7.76,0 10,2.24 10,5 10,7.76 7.76,10 5,10 2.24,10 0,7.76 0,5 Z"
+       copytype="single_stretched"
+       prop_scale="-0.51370047"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect861"
+       is_visible="true"
+       pattern="M 0,5 C 0,2.24 2.24,0 5,0 7.76,0 10,2.24 10,5 10,7.76 7.76,10 5,10 2.24,10 0,7.76 0,5 Z"
+       copytype="single_stretched"
+       prop_scale="-0.69749285"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect857"
+       is_visible="true"
+       pattern="M 0,5 C 0,2.24 2.24,0 5,0 7.76,0 10,2.24 10,5 10,7.76 7.76,10 5,10 2.24,10 0,7.76 0,5 Z"
+       copytype="single_stretched"
+       prop_scale="0.636218"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect835"
+       is_visible="true"
+       pattern="M 0,5 C 0,2.24 2.24,0 5,0 7.76,0 10,2.24 10,5 10,7.76 7.76,10 5,10 2.24,10 0,7.76 0,5 Z"
+       copytype="single_stretched"
+       prop_scale="0.63621771"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect831"
+       is_visible="true"
+       pattern="M 0,5 C 0,2.24 2.24,0 5,0 7.76,0 10,2.24 10,5 10,7.76 7.76,10 5,10 2.24,10 0,7.76 0,5 Z"
+       copytype="single_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect827"
+       is_visible="true"
+       pattern="M 0,5 C 0,2.24 2.24,0 5,0 7.76,0 10,2.24 10,5 10,7.76 7.76,10 5,10 2.24,10 0,7.76 0,5 Z"
+       copytype="single_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect819"
+       is_visible="true"
+       pattern="M 0,5 C 0,2.24 2.24,0 5,0 7.76,0 10,2.24 10,5 10,7.76 7.76,10 5,10 2.24,10 0,7.76 0,5 Z"
+       copytype="single_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect819-0"
+       is_visible="true"
+       pattern="M 0,5 C 0,2.24 2.24,0 5,0 7.76,0 10,2.24 10,5 10,7.76 7.76,10 5,10 2.24,10 0,7.76 0,5 Z"
+       copytype="single_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect861-4"
+       is_visible="true"
+       pattern="M 0,5 C 0,2.24 2.24,0 5,0 7.76,0 10,2.24 10,5 10,7.76 7.76,10 5,10 2.24,10 0,7.76 0,5 Z"
+       copytype="single_stretched"
+       prop_scale="-0.69749285"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect819-7"
+       is_visible="true"
+       pattern="M 0,5 C 0,2.24 2.24,0 5,0 7.76,0 10,2.24 10,5 10,7.76 7.76,10 5,10 2.24,10 0,7.76 0,5 Z"
+       copytype="single_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect819-0-4"
+       is_visible="true"
+       pattern="M 0,5 C 0,2.24 2.24,0 5,0 7.76,0 10,2.24 10,5 10,7.76 7.76,10 5,10 2.24,10 0,7.76 0,5 Z"
+       copytype="single_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect819-7-9"
+       is_visible="true"
+       pattern="M 0,5 C 0,2.24 2.24,0 5,0 7.76,0 10,2.24 10,5 10,7.76 7.76,10 5,10 2.24,10 0,7.76 0,5 Z"
+       copytype="single_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect819-7-9-9"
+       is_visible="true"
+       pattern="M 0,5 C 0,2.24 2.24,0 5,0 7.76,0 10,2.24 10,5 10,7.76 7.76,10 5,10 2.24,10 0,7.76 0,5 Z"
+       copytype="single_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect819-7-9-9-8"
+       is_visible="true"
+       pattern="M 0,5 C 0,2.24 2.24,0 5,0 7.76,0 10,2.24 10,5 10,7.76 7.76,10 5,10 2.24,10 0,7.76 0,5 Z"
+       copytype="single_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="73.590548"
+     inkscape:cy="885.81786"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g967"
+     showgrid="false"
+     inkscape:window-width="1777"
+     inkscape:window-height="510"
+     inkscape:window-x="55"
+     inkscape:window-y="302"
+     inkscape:window-maximized="0"
+     showguides="true" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Junk"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:none"
+     sodipodi:insensitive="true">
+    <path
+       style="fill:#000000;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 74.828159,53.616713 c -0.670398,-0.06704 -1.947282,-2.023177 -0.256726,-5.472052 0.766558,-1.612782 1.997308,-3.273126 3.690254,-4.83272 2.939982,-2.718424 6.724226,-5.030896 11.399143,-7.050608 4.599116,-0.852429 9.60593,-1.555196 15.01488,-2.230633 1.24898,-0.155965 2.48883,-0.306734 3.70319,-0.452474 2e-5,-4e-6 2e-5,-3e-6 2e-5,-2e-6 3.39671,19.397694 4.24726,33.691054 1.09851,33.981017 -3.23632,0.298027 -4.74959,-12.995589 -4.67779,-28.744603 0,0 0,-3e-6 0,-3e-6 -0.78731,0.431228 -1.59019,0.87086 -2.3901,1.305496 -3.479984,1.890848 -6.640789,3.541035 -9.827474,4.936626 -4.479145,1.419442 -7.33339,2.387304 -10.315043,3.860301 -1.689006,0.842069 -2.747676,1.409651 -3.804575,2.16743 -1.70239,1.227773 -2.932122,2.602442 -3.634289,2.532225 z"
+       id="path817"
+       inkscape:connector-curvature="0"
+       inkscape:path-effect="#path-effect819"
+       inkscape:original-d="M 74.828159,53.616713 C 75.962086,42.277425 106.58928,36.196428 106.58928,36.196428 l 2.88815,31.362804"
+       transform="translate(672.93137,-176.26661)"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:#000000;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 10.690781,25.988699 c -0.304665,-0.543214 9.45925,-9.512467 27.753633,-15.206631 6.385006,-1.9857494 13.786091,-3.350422 21.689691,-3.190157 1.104678,0.0224 2.201933,0.074301 3.290958,0.1555657 8.733604,0.6793096 16.619517,3.1937383 23.020671,6.0078453 14.741526,6.474829 22.686676,13.763346 22.332966,14.371538 -0.59214,1.01815 -9.989475,-4.12922 -24.372002,-9.24909 -6.211084,-2.207112 -13.616174,-4.272181 -21.4418,-4.796051 -0.978576,-0.06894 -1.966179,-0.11398 -2.962671,-0.135186 -7.111173,-0.151329 -13.943492,0.927034 -19.979396,2.439877 -17.258414,4.324781 -28.696466,10.735528 -29.33205,9.602289 z"
+       id="path833"
+       inkscape:connector-curvature="0"
+       inkscape:path-effect="#path-effect835"
+       inkscape:original-d="M 10.690781,25.988699 C 53.069498,2.2203266 75.627293,8.8467491 108.77869,28.126855"
+       transform="translate(663.95817,-138.33794)"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#000000;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 74.828159,53.616713 c -0.670398,-0.06704 -1.947282,-2.023177 -0.256726,-5.472052 0.766558,-1.612782 1.997308,-3.273126 3.690254,-4.83272 2.939982,-2.718424 6.724226,-5.030896 11.399143,-7.050608 4.599116,-0.852429 9.60593,-1.555196 15.01488,-2.230633 1.24898,-0.155965 2.48883,-0.306734 3.70319,-0.452474 2e-5,-4e-6 2e-5,-3e-6 2e-5,-2e-6 3.39671,19.397694 4.24726,33.691054 1.09851,33.981017 -3.23632,0.298027 -4.74959,-12.995589 -4.67779,-28.744603 0,0 0,-3e-6 0,-3e-6 -0.78731,0.431228 -1.59019,0.87086 -2.3901,1.305496 -3.479984,1.890848 -6.640789,3.541035 -9.827474,4.936626 -4.479145,1.419442 -7.33339,2.387304 -10.315043,3.860301 -1.689006,0.842069 -2.747676,1.409651 -3.804575,2.16743 -1.70239,1.227773 -2.932122,2.602442 -3.634289,2.532225 z"
+       id="path817-5"
+       inkscape:connector-curvature="0"
+       inkscape:path-effect="#path-effect819-0"
+       inkscape:original-d="M 74.828159,53.616713 C 75.962086,42.277425 106.58928,36.196428 106.58928,36.196428 l 2.88815,31.362804"
+       transform="matrix(-1,0,0,1,778.45879,-178.42206)"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:#000000;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 76.973622,116.3258 c -0.250527,0.60201 3.440895,3.04424 10.156393,5.57093 6.790866,2.55504 16.275215,5.00383 27.367745,5.4893 6.02529,0.26371 11.63565,-0.0916 16.70626,-0.86002 12.90055,-3.727 21.46558,-6.8243 21.14105,-7.79076 0,0 0,0 0,0 0,0 0,0 0,0 -0.002,-0.004 -0.002,-0.004 -0.001,-0.004 7e-5,2e-4 1.5e-4,3.8e-4 -0.001,-0.004 0,0 0,0 0,0 0,0 0,0 0,0 -0.3726,-0.95119 -9.45957,0.45911 -21.99367,3.23865 -4.86983,0.43779 -10.14016,0.6052 -15.84988,0.34432 -10.521,-0.48072 -19.49174,-2.27391 -26.354705,-3.88109 -6.708972,-1.57112 -10.87816,-2.80523 -11.170273,-2.10329 z"
+       id="path881"
+       inkscape:connector-curvature="0"
+       inkscape:path-effect="#path-effect883"
+       inkscape:original-d="m 76.973622,116.3258 c 43.030398,17.90705 75.370008,2.40542 75.370008,2.40542"
+       sodipodi:nodetypes="cc"
+       transform="translate(608.36611,-158.65042)" />
+    <path
+       style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.51099998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       d="m 722.02964,-75.9491 c 3.31684,0.519807 6.26012,-1.564006 9.48293,-1.871399 1.48874,0.945318 1.20168,2.929825 0.8013,4.378944 -0.85703,4.033065 -2.09632,8.264262 -5.1485,11.214375 -1.64139,0.97126 -2.79946,-0.99 -3.11774,-2.345 -0.46398,-1.450986 -0.87043,-3.027029 -2.1211,-4.021785 -1.48691,-1.440075 -3.28251,-2.864688 -3.7415,-4.989345 2.8e-4,-1.575186 1.90474,-2.973788 3.38971,-2.350675 0.91907,1.466137 1.41535,3.439485 2.92719,4.580638 1.7642,2.024777 3.66825,4.271528 3.85821,7.074007 -1.04037,0.22944 -2.09197,1.56745 -2.98881,1.42334 2.22725,-3.715242 3.77749,-8.017169 3.5972,-12.405855 -3.50604,-0.293287 -6.62135,2.385961 -10.14943,1.645371 1.07018,-0.77754 2.14038,-1.555052 3.21054,-2.332616 z"
+       id="path891"
+       inkscape:connector-curvature="0" />
+    <path
+       style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.51099998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       d="m 727.75648,-63.36081 c -1.6472,3.11312 -2.40042,6.59051 -3.05074,10.02343 -1.43821,2.66198 -4.79464,3.18619 -7.54432,3.06209 -2.68814,0.10489 -5.32539,-0.48703 -7.92529,-1.09974 0.15579,-1.35781 1.72095,-2.01826 2.90911,-2.2947 1.281,-0.21965 2.41118,0.65728 3.6627,0.79474 2.48102,0.59909 5.03691,-0.0756 7.53605,0.18168 -0.44733,0.70845 -2.99917,1.85986 -2.0648,-0.002 0.871,-3.07097 1.19569,-6.42985 3.09508,-9.11162 1.12739,-0.51808 2.2548,-1.03618 3.38221,-1.5542 z"
+       id="path893"
+       inkscape:connector-curvature="0" />
+    <path
+       style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.51099998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       d="m 728.04079,-64.15869 c -1.2942,4.32193 -2.17882,8.85019 -1.80147,13.37869 -0.32485,1.07642 -2.40669,1.6561 -2.86093,1.7695 2.31111,-1.507 4.95701,-2.46356 7.23631,-4.01826 0.84168,-0.56744 2.73977,-1.5782 2.9787,-1.7534 -0.39254,0.22329 -2.17228,1.25294 -1.72181,1.01126 0.57483,-0.33452 2.59635,-1.49124 0.93974,-0.5353 -1.00222,0.53916 1.01746,-0.61483 1.36615,-0.81644 1.16066,-0.6789 -2.32096,1.33488 -0.79009,0.43558 1.26539,-0.57464 2.46063,-1.7241 3.85282,-1.79449 -0.85996,1.0862 -2.06409,1.52089 -3.2009,2.13969 -2.10163,1.57343 -6.04782,4.12305 -10.58561,5.90961 -1.54203,-0.5114 -0.68424,-2.38995 -0.76352,-3.56874 -0.0613,-3.56029 0.80271,-7.04438 1.77311,-10.44387 1.19247,-0.57134 2.38515,-1.14241 3.57749,-1.7139 z"
+       id="path895"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccccccc" />
+    <path
+       style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.51099998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       d="m 741.21475,-86.600517 c 2.88283,1.132079 6.03167,1.378765 8.86438,-0.03644 3.37962,-0.675325 6.738,-1.492098 9.80552,-3.136742 -1.46147,0.787367 -3.62703,2.107223 -3.44666,1.516406 0.86957,-0.63437 2.74893,-2.610523 3.39173,-1.169386 -3.39796,2.599377 -7.68756,3.604432 -11.80718,4.45664 -2.92331,1.48121 -6.18562,1.084767 -9.14402,-0.07362 0.77873,-0.51893 1.55756,-1.038044 2.33623,-1.55686 z"
+       id="path897"
+       inkscape:connector-curvature="0" />
+    <path
+       style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.51099998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       d="m 708.14537,-84.309241 c -4.06609,0.21011 -7.55039,3.19097 -11.68987,3.025321 -3.96867,-0.183625 -8.00911,0.383766 -11.91788,-0.412763 -0.9268,-0.897963 -3.87941,-3.599492 -1.44253,-4.230864 2.02594,-2.066807 2.09205,2.278287 3.74934,2.627865 4.08827,0.745724 8.30318,0.194664 12.44604,0.365109 3.88393,-0.253422 7.21452,-2.943275 11.12508,-3.024422 -0.75662,0.54997 -1.51406,1.099527 -2.27018,1.649754 z"
+       id="path899"
+       inkscape:connector-curvature="0" />
+    <ellipse
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#ac9393;stroke-width:1.39513087;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       id="path839"
+       cx="113.47442"
+       cy="75.316963"
+       rx="59.737717"
+       ry="44.34811" />
+    <path
+       style="fill:#000000;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 74.828159,53.616713 c -0.670398,-0.06704 -1.947282,-2.023177 -0.256726,-5.472052 0.766558,-1.612782 1.997308,-3.273126 3.690254,-4.83272 2.939982,-2.718424 6.724226,-5.030896 11.399143,-7.050608 4.599116,-0.852429 9.60593,-1.555196 15.01488,-2.230633 1.24898,-0.155965 2.48883,-0.306734 3.70319,-0.452474 2e-5,-4e-6 2e-5,-3e-6 2e-5,-2e-6 3.39671,19.397694 4.24726,33.691054 1.09851,33.981017 -3.23632,0.298027 -4.74959,-12.995589 -4.67779,-28.744603 0,0 0,-3e-6 0,-3e-6 -0.78731,0.431228 -1.59019,0.87086 -2.3901,1.305496 -3.479984,1.890848 -6.640789,3.541035 -9.827474,4.936626 -4.479145,1.419442 -7.33339,2.387304 -10.315043,3.860301 -1.689006,0.842069 -2.747676,1.409651 -3.804575,2.16743 -1.70239,1.227773 -2.932122,2.602442 -3.634289,2.532225 z"
+       id="path817-0"
+       inkscape:connector-curvature="0"
+       inkscape:path-effect="#path-effect819-7"
+       inkscape:original-d="M 74.828159,53.616713 C 75.962086,42.277425 106.58928,36.196428 106.58928,36.196428 l 2.88815,31.362804"
+       transform="rotate(9.2588036,217.4343,408.80054)"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="display:inline;fill:#000000;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 74.828159,53.616713 c -0.670398,-0.06704 -1.947282,-2.023177 -0.256726,-5.472052 0.766558,-1.612782 1.997308,-3.273126 3.690254,-4.83272 2.939982,-2.718424 6.724226,-5.030896 11.399143,-7.050608 4.599116,-0.852429 9.60593,-1.555196 15.01488,-2.230633 1.24898,-0.155965 2.48883,-0.306734 3.70319,-0.452474 2e-5,-4e-6 2e-5,-3e-6 2e-5,-2e-6 3.39671,19.397694 4.24726,33.691054 1.09851,33.981017 -3.23632,0.298027 -4.74959,-12.995589 -4.67779,-28.744603 0,0 0,-3e-6 0,-3e-6 -0.78731,0.431228 -1.59019,0.87086 -2.3901,1.305496 -3.479984,1.890848 -6.640789,3.541035 -9.827474,4.936626 -4.479145,1.419442 -7.33339,2.387304 -10.315043,3.860301 -1.689006,0.842069 -2.747676,1.409651 -3.804575,2.16743 -1.70239,1.227773 -2.932122,2.602442 -3.634289,2.532225 z"
+       id="path817-0-1"
+       inkscape:connector-curvature="0"
+       inkscape:path-effect="#path-effect819-7-9"
+       inkscape:original-d="M 74.828159,53.616713 C 75.962086,42.277425 106.58928,36.196428 106.58928,36.196428 l 2.88815,31.362804"
+       transform="matrix(-0.98697166,0.16089422,0.16089422,0.98697166,158.05188,-30.850955)"
+       sodipodi:nodetypes="ccc" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer7"
+     inkscape:label="Bas Cat -Fancy Eyes"
+     style="display:none"
+     sodipodi:insensitive="true">
+    <g
+       inkscape:groupmode="layer"
+       id="layer5"
+       inkscape:label="Ears"
+       style="display:inline">
+      <g
+         style="display:inline"
+         id="g5410-2"
+         transform="translate(-0.26458331)"
+         inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96">
+        <path
+           sodipodi:nodetypes="cccccc"
+           inkscape:connector-curvature="0"
+           id="path4754-0"
+           d="m 53.027596,48.796706 c 1.204454,-0.62112 2.381921,-1.038842 3.883968,-1.427063 0,0 -2.571189,-2.312882 -12.324318,-3.433076 h -2e-6 c -1.553025,7.403713 0.05457,12.570847 0.05457,12.570847 0.791684,-0.944157 0.410986,-0.841998 1.260259,-1.741086"
+           style="fill:#bfa0df;stroke:#808080;stroke-width:0.50270832;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <path
+           sodipodi:nodetypes="ccc"
+           inkscape:connector-curvature="0"
+           id="path4754-9-9"
+           d="m 44.882725,54.579604 c 0,0 7.582658,-8.16608 0.156206,-9.880456 -0.294055,1.989092 -0.378149,2.865492 -0.524218,5.662557"
+           style="display:inline;fill:#ffc0c0;stroke:none;stroke-width:0.33456793;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <path
+           sodipodi:nodetypes="cc"
+           inkscape:connector-curvature="0"
+           id="path4754-9-1-5"
+           d="m 45.902073,54.766328 c 0,0 7.514791,-9.048568 -1.314827,-10.829761"
+           style="display:inline;fill:none;stroke:#808080;stroke-width:0.53500003;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+      <path
+         style="display:inline;fill:#bfa0df;stroke:#808080;stroke-width:0.50270832;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 65.867432,48.624671 c -1.204454,-0.62112 -2.178604,-1.056734 -3.680651,-1.444955 0,0 2.783801,-2.454623 12.536931,-3.574817 h 2e-6 c 1.553025,7.403713 -0.05457,12.570847 -0.05457,12.570847 -0.791685,-0.944157 -0.410986,-0.841998 -1.26026,-1.741086"
+         id="path4754-7-2"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccccc"
+         inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path5197"
+         d="m 59.315399,64.497561 c -0.01732,0.847965 -0.0052,1.464848 -0.679162,1.403551 l 1.401912,-0.03248 c -0.673925,0.0613 -0.670705,-0.523104 -0.699935,-1.076545 l -0.03503,-1.172018"
+         style="display:inline;fill:#404040;stroke:#404040;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer9"
+       inkscape:label="LLegs"
+       style="display:inline">
+      <path
+         style="display:inline;fill:#c0a0df;stroke:#808080;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 55.069593,76.067586 c 1.791981,6.723689 6.697411,8.235563 7.850291,4.665499 0.49575,-3.016804 -1.72244,-1.601638 -2.40167,-2.55199 -1.3881,-1.942196 -1.57289,-5.981173 -3.34519,-6.332483 -1.772302,-0.35131 -3.046233,0.681481 -2.103431,4.218974 z"
+         id="path5498-8-0-8-4"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="scass"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96"
+         inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png" />
+      <path
+         style="display:inline;fill:#c0a0df;stroke:#808080;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 41.719162,67.233523 c -1.98091,-0.944752 -5.849235,-1.207456 -6.269184,2.011561 -0.156717,2.450478 2.244632,3.546593 1.812581,6.052434 0.22005,1.994022 -2.430941,4.395767 0.04085,5.7867 1.773327,1.060746 4.36431,2.268733 6.1411,0.569792 1.948601,-2.353854 -2.550381,-2.251964 -2.260865,-4.226931 0.457609,-2.255593 1.982051,-4.43549 1.862743,-6.774389 -0.06228,-1.220989 -0.223725,-2.892878 -1.327225,-3.419167 z"
+         id="path5498-4-7"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="acccccaa"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96"
+         inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png" />
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer6"
+       inkscape:label="Body"
+       style="display:inline">
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#c0a0df;fill-opacity:1;fill-rule:nonzero;stroke:#808080;stroke-width:1.06500006;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+         d="m 18.307806,40.051952 c -1.442882,-0.113863 -1.6959,0.778626 -1.548569,1.728646 4.203259,4.181907 13.575522,3.673775 17.398955,8.984637 1.464641,2.03443 -3.013709,5.034161 -3.931499,6.410932 -0.685573,0.703795 -1.228855,1.642393 -1.222656,2.792969 -4e-6,0.0013 -4e-6,0.0026 0,0.0039 0.0097,0.86652 0.118619,1.850042 0.486328,2.757813 0.367709,0.907771 1.035276,1.760559 2.089844,2.166016 0.0078,0.0027 0.01558,0.0053 0.02344,0.0078 1.449038,0.496157 2.798642,0.407608 3.58789,1.087891 0.229391,0.198013 0.561869,0.221079 0.816406,0.05664 0.2581,-0.166146 0.470187,-0.298657 0.673828,-0.378906 0.17415,-0.06849 0.312544,-0.205468 0.382813,-0.378906 0.187202,-0.460581 0.0595,-1.076319 -0.257823,-1.386697 -0.317319,-0.310378 -0.675953,-0.422757 -1.027343,-0.517578 -1.788994,-0.336096 -3.819331,-0.81428 -4.025391,-2.687498 -0.0049,-0.0532 -0.01606,-0.105646 -0.0332,-0.15625 0.36866,-5.827206 6.483543,-5.749587 4.379128,-10.672513 C 34.439028,46.924511 20.97136,40.226236 18.307806,40.051952 Z"
+         id="path5492"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccscccscccccccccccc"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96"
+         inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png" />
+      <path
+         style="opacity:1;vector-effect:none;fill:#c0a0df;fill-opacity:1;fill-rule:nonzero;stroke:#808080;stroke-width:0.96500003;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill"
+         d="M 46.108712,56.551329 H 52.5579 c 6.774339,0 12.22805,4.094182 12.22805,10.494392 0,6.40021 -3.875145,11.552725 -12.22805,11.552725 h -6.449188 c -6.774339,0 -12.228049,-5.152515 -12.228049,-11.552725 0,-6.40021 5.796956,-9.303767 12.228049,-10.494392 z"
+         id="rect5512"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="csssssc"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96"
+         inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png" />
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer8"
+       inkscape:label="RLegs"
+       style="display:inline">
+      <path
+         style="display:inline;fill:#c0a0df;stroke:#808080;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 40.790729,68.179922 c -1.98091,-0.944752 -5.849235,-1.207456 -6.269184,2.011561 -0.156717,2.450478 2.244632,3.546593 1.812581,6.052434 0.22005,1.994022 -2.430941,4.395767 0.04085,5.7867 1.773327,1.060746 4.36431,2.268733 6.1411,0.569792 1.948601,-2.353854 -2.550381,-2.251964 -2.260865,-4.226931 0.457609,-2.255593 1.982051,-4.43549 1.862743,-6.774389 -0.06228,-1.220989 -0.223725,-2.892878 -1.327225,-3.419167 z"
+         id="path5498-3"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="acccccaa"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96"
+         inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png" />
+      <path
+         style="display:inline;fill:#c0a0df;stroke:#808080;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 53.949093,77.355009 c 1.791978,6.723689 6.69741,8.235563 7.850289,4.665498 0.49575,-3.016804 -1.722441,-1.601638 -2.401667,-2.55199 -1.388105,-1.942196 -1.572889,-5.981172 -3.345191,-6.332482 -1.772302,-0.35131 -3.046233,0.681481 -2.103431,4.218974 z"
+         id="path5498-8-0-0"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="scass"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96"
+         inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png" />
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer2"
+       inkscape:label="Head"
+       style="display:inline">
+      <path
+         style="opacity:1;vector-effect:none;fill:#b0a0df;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.51099998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+         d="m 280.29891,63.935603 h 4.40995 c 10.03156,0 18.39409,7.34238 18.10751,17.11063 -0.20045,6.83248 -8.07595,13.93562 -18.10751,13.93562 h -4.40995 c -10.03156,0 -16.9048,-6.56861 -18.10751,-13.93562 -1.57457,-9.64477 8.07595,-17.11063 18.10751,-17.11063 z"
+         id="rect937"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="sssssss" />
+      <rect
+         ry="18.107513"
+         style="opacity:1;vector-effect:none;fill:#ff6600;fill-opacity:1;fill-rule:nonzero;stroke:#ac9393;stroke-width:0.51099998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+         id="rect937-9"
+         width="40.624969"
+         height="35.279587"
+         x="292.12561"
+         y="0.86535305"
+         rx="18.107513" />
+      <path
+         style="display:inline;fill:#b0a0df;fill-opacity:1;stroke-width:0.87818927"
+         d="m 288.36589,66.888513 c -0.28486,-0.12008 -0.56343,-1.11137 0.67735,-2.31776 0.56968,-0.56744 1.35017,-1.09095 2.3192,-1.50896 1.68426,-0.7301 3.96131,-1.31131 6.02649,-1.37527 2.33883,-0.0724 4.44508,0.67063 6.91911,1.13187 0.57128,0.10654 1.13781,0.21389 1.6924,0.31986 l 10e-6,1e-5 c -1.30858,8.55765 -2.99879,14.63651 -4.42411,14.32497 -10.31712,-7.51814 -7.94787,-7.01826 -13.21043,-10.5747 z"
+         id="path817-0-1-5-7-3"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccasccccc" />
+      <g
+         id="g940"
+         transform="rotate(4.7265706,696.57019,2087.0008)">
+        <path
+           sodipodi:nodetypes="cccasccccc"
+           inkscape:connector-curvature="0"
+           id="path817-0-1-5-7-6-2"
+           d="m 124.06413,106.43102 c -0.29378,-0.0962 -0.65308,-1.06116 0.48408,-2.36568 0.52098,-0.61246 1.25569,-1.1985 2.18697,-1.69493 1.61837,-0.86641 3.8398,-1.63328 5.89268,-1.86719 2.32491,-0.26492 4.48523,0.30208 6.98884,0.55789 0.57811,0.0591 1.15156,0.11939 1.713,0.17931 h 1e-5 c -0.59897,8.63639 -4.4795,8.56857 -5.92564,8.37555 -5.54909,-0.95806 -5.80219,-0.0742 -11.3399,-3.18493 z"
+           style="display:inline;fill:#ff8080;fill-opacity:1;stroke-width:0.87818927" />
+        <path
+           sodipodi:nodetypes="cccasccsccccccc"
+           inkscape:connector-curvature="0"
+           id="path817-0-1-5-4"
+           d="m 123.44992,105.03723 c 0.17868,-0.59229 -0.0389,0.33263 1.09828,-0.97189 0.52098,-0.61246 1.25568,-1.1985 2.18696,-1.69493 1.61837,-0.86641 3.8398,-1.63328 5.89268,-1.86719 2.32491,-0.26492 4.48523,0.30208 6.98885,0.55789 0.57812,0.0591 1.15156,0.11939 1.713,0.17931 h 1e-5 c -0.59897,8.63638 -1.85341,14.24324 -3.29955,14.05021 -1.48636,-0.1984 -0.63913,-5.44446 1.11823,-12.17146 v 0 c -0.40088,0.1051 -0.80967,0.21228 -1.21659,0.31758 -1.7703,0.45818 -3.37085,0.84555 -4.95515,1.1215 -2.16746,0.15599 -3.55557,0.28249 -5.05625,0.61216 -0.85091,0.19002 -1.38864,0.32613 -1.94638,0.54375 -0.96234,-0.13483 -2.34123,0.50577 -2.52409,-0.67693 z"
+           style="display:inline;fill:#bf8080;fill-opacity:1;stroke:none;stroke-width:0.11923876px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      </g>
+      <path
+         style="display:inline;fill:#b0a0df;fill-opacity:1;stroke-width:0.87818927"
+         d="m 276.18726,66.978423 c 0.28485,-0.12008 0.56343,-1.11136 -0.67736,-2.31775 -0.56968,-0.56744 -1.35017,-1.09096 -2.3192,-1.50896 -1.68426,-0.7301 -3.96131,-1.31131 -6.02648,-1.37527 -2.33884,-0.0725 -4.44509,0.67063 -6.91912,1.13187 -0.57127,0.10653 -1.1378,0.21388 -1.69239,0.31986 h -10e-6 c 1.30857,8.55766 2.99878,14.63651 4.42411,14.32498 10.31711,-7.51815 7.94787,-7.01826 13.21042,-10.5747 z"
+         id="path817-0-1-5-7-3-2"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccasccccc" />
+      <g
+         id="g940-2"
+         transform="matrix(-0.99659928,0.08240069,0.08240069,0.99659928,390.21401,-50.210642)">
+        <path
+           sodipodi:nodetypes="cccascccc"
+           inkscape:connector-curvature="0"
+           id="path817-0-1-5-7-6-2-7"
+           d="m 132.79989,108.6865 c -0.29378,-0.0962 -9.38884,-3.31664 -8.25168,-4.62116 0.52098,-0.61246 1.25569,-1.1985 2.18697,-1.69493 1.61837,-0.86641 3.8398,-1.63328 5.89268,-1.86719 2.32491,-0.26492 4.48523,0.30208 6.98884,0.55789 0.57811,0.0591 1.15156,0.11939 1.713,0.17931 h 1e-5 c -0.59897,8.63639 -1.7249,13.50331 -3.17104,13.31029 -2.33019,-0.28986 -6.12744,-4.90055 -5.35878,-5.86421 z"
+           style="display:inline;fill:#ff8080;fill-opacity:1;stroke-width:0.87818927" />
+        <path
+           sodipodi:nodetypes="cccasccsccccccc"
+           inkscape:connector-curvature="0"
+           id="path817-0-1-5-4-6"
+           d="m 123.44992,105.03723 c 0.17868,-0.59229 -0.0389,0.33263 1.09828,-0.97189 0.52098,-0.61246 1.25568,-1.1985 2.18696,-1.69493 1.61837,-0.86641 3.8398,-1.63328 5.89268,-1.86719 2.32491,-0.26492 4.48523,0.30208 6.98885,0.55789 0.57812,0.0591 1.15156,0.11939 1.713,0.17931 h 1e-5 c -0.59897,8.63638 -1.85341,14.24324 -3.29955,14.05021 -1.48636,-0.1984 -0.63913,-5.44446 1.11823,-12.17146 v 0 c -0.40088,0.1051 -0.80967,0.21228 -1.21659,0.31758 -1.7703,0.45818 -3.37085,0.84555 -4.95515,1.1215 -2.16746,0.15599 -3.55557,0.28249 -5.05625,0.61216 -0.85091,0.19002 -1.38864,0.32613 -1.94638,0.54375 -0.96234,-0.13483 -2.34123,0.50577 -2.52409,-0.67693 z"
+           style="display:inline;fill:#bf8080;fill-opacity:1;stroke:none;stroke-width:0.11923876px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      </g>
+      <path
+         style="opacity:1;vector-effect:none;fill:#bfa0df;fill-opacity:1;fill-rule:nonzero;stroke:#808080;stroke-width:1.005;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+         d="m 57.917923,47.511384 h 3.300387 c 7.507572,0 13.766051,5.495002 13.551576,12.805516 -0.150016,5.113396 -6.044004,9.635602 -13.551576,9.635602 h -3.300387 c -7.507573,0 -12.651473,-4.122167 -13.551575,-9.635602 -1.178401,-7.218102 6.044002,-12.805516 13.551575,-12.805516 z"
+         id="rect937-8"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="sssssss"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96"
+         inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png" />
+    </g>
+    <g
+       style="display:inline"
+       inkscape:label="Face"
+       id="g5215"
+       inkscape:groupmode="layer">
+      <g
+         id="g1079"
+         transform="matrix(0.83101498,0,0,0.83101498,8.9505878,9.6350397)"
+         style="stroke-width:1.20334768">
+        <path
+           sodipodi:nodetypes="ccsc"
+           inkscape:connector-curvature="0"
+           id="path1021"
+           d="m 58.08639,60.233658 c -0.114597,0.110586 -1.971044,-0.02982 -3.205651,0.196016 0,-0.305949 2.74414,-4.07303 2.811713,-3.690811 0.280659,1.5875 0.588244,3.387283 0.393938,3.494795 z"
+           style="opacity:1;vector-effect:none;fill:#404040;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.55955666;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill" />
+        <path
+           sodipodi:nodetypes="ccsc"
+           inkscape:connector-curvature="0"
+           id="path1021-9"
+           d="m 50.360604,54.150296 c 0.08207,-0.136477 3.272895,-0.806824 4.219894,-0.549378 0.07919,0.295523 -3.25687,4.808184 -3.421067,4.456478 -0.68197,-1.460769 -0.958686,-3.752962 -0.798827,-3.9071 z"
+           style="display:inline;opacity:1;vector-effect:none;fill:#404040;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.55955666;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill" />
+        <path
+           sodipodi:nodetypes="ssscss"
+           inkscape:connector-curvature="0"
+           id="circle5177"
+           d="m 57.55069,56.97826 c 0,1.76842 -1.433588,3.202008 -3.202008,3.202008 -1.76842,0 -3.202007,-1.433588 -3.202007,-3.202008 0,-0.88421 0.358397,-1.684712 0.937846,-2.264161 0.579449,-0.57945 1.379951,-0.937847 2.264161,-0.937847 1.76842,0 3.202008,1.433588 3.202008,3.202008 z"
+           style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#404040;stroke-width:0.67868811;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill" />
+        <circle
+           inkscape:export-ydpi="96"
+           inkscape:export-xdpi="96"
+           inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+           style="opacity:1;vector-effect:none;fill:#404040;fill-opacity:1;fill-rule:nonzero;stroke:#404040;stroke-width:0.24998957;paint-order:markers stroke fill"
+           id="circle5179"
+           cx="54.473778"
+           cy="57.216396"
+           r="1.1804298" />
+        <circle
+           inkscape:export-ydpi="96"
+           inkscape:export-xdpi="96"
+           inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+           style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#404040;stroke-width:0.04655354;paint-order:markers stroke fill"
+           id="circle5181"
+           cx="53.88102"
+           cy="56.686035"
+           r="0.2198219" />
+      </g>
+      <circle
+         r="1.1804298"
+         cy="57.312054"
+         cx="64.262833"
+         id="circle5187"
+         style="opacity:1;vector-effect:none;fill:#404040;fill-opacity:1;fill-rule:nonzero;stroke:#404040;stroke-width:0.20774508;paint-order:markers stroke fill"
+         inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+      <circle
+         r="0.2198219"
+         cy="56.781693"
+         cx="63.670071"
+         id="circle5189"
+         style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#404040;stroke-width:0.03868669;paint-order:markers stroke fill"
+         inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path5193"
+         d="m 55.726373,65.213766 c 2.038259,0.642544 3.615455,1.20677 7.150182,-0.02638"
+         style="fill:none;stroke:#404040;stroke-width:0.26458332px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+      <path
+         sodipodi:nodetypes="aaca"
+         inkscape:connector-curvature="0"
+         id="path5195"
+         d="m 58.174178,61.905291 c 0.380348,-0.654816 1.89316,-0.65581 2.271792,0 0.380928,0.659787 -0.644238,1.817198 -1.142786,1.979361 -0.609229,-0.302667 -1.510512,-1.32255 -1.129006,-1.979361 z"
+         style="fill:#404040;stroke:#404040;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+      <ellipse
+         ry="0.099721096"
+         rx="0.080330886"
+         cy="63.876854"
+         cx="58.155788"
+         id="ellipse5201"
+         style="opacity:1;vector-effect:none;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:#808080;stroke-width:0.05557505;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill"
+         inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+      <ellipse
+         ry="0.099721096"
+         rx="0.080330886"
+         cy="64.40612"
+         cx="57.631401"
+         id="ellipse5203"
+         style="opacity:1;vector-effect:none;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:#808080;stroke-width:0.05557505;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill"
+         inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+      <ellipse
+         ry="0.099721096"
+         rx="0.080330886"
+         cy="64.453369"
+         cx="58.281048"
+         id="ellipse5205"
+         style="opacity:1;vector-effect:none;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:#808080;stroke-width:0.05557505;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill"
+         inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+      <ellipse
+         transform="scale(-1,1)"
+         ry="0.099721096"
+         rx="0.080330886"
+         cy="63.899345"
+         cx="-60.142635"
+         id="ellipse5207"
+         style="opacity:1;vector-effect:none;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:#808080;stroke-width:0.05557505;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill"
+         inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+      <ellipse
+         transform="scale(-1,1)"
+         ry="0.099721096"
+         rx="0.080330886"
+         cy="64.428612"
+         cx="-60.667023"
+         id="ellipse5209"
+         style="opacity:1;vector-effect:none;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:#808080;stroke-width:0.05557505;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill"
+         inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+      <ellipse
+         transform="scale(-1,1)"
+         ry="0.099721096"
+         rx="0.080330886"
+         cy="64.475861"
+         cx="-60.017376"
+         id="ellipse5211"
+         style="opacity:1;vector-effect:none;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:#808080;stroke-width:0.05557505;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill"
+         inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+      <path
+         style="fill:none;stroke:#808080;stroke-width:0.465;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 41.897143,58.29963 c 2.920086,1.508602 3.726455,0.93536 6.056366,1.453975"
+         id="path5221"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+      <path
+         style="display:inline;fill:none;stroke:#808080;stroke-width:0.465;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 41.176785,59.522846 c 2.920086,1.508602 4.841509,0.761889 7.17142,1.280504"
+         id="path5221-6"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+      <path
+         style="display:inline;fill:none;stroke:#808080;stroke-width:0.465;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 41.602008,60.609528 c 2.920086,1.508602 3.954584,0.938718 6.402612,0.984862"
+         id="path5221-6-1"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+      <path
+         style="display:inline;fill:none;stroke:#808080;stroke-width:0.465;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 77.802041,58.508954 c -2.920086,1.508602 -3.726455,0.93536 -6.056366,1.453975"
+         id="path5221-3"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+      <path
+         style="display:inline;fill:none;stroke:#808080;stroke-width:0.465;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 78.522399,59.73217 c -2.920086,1.508602 -4.841509,0.761889 -7.17142,1.280504"
+         id="path5221-6-2"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+      <path
+         style="display:inline;fill:none;stroke:#808080;stroke-width:0.465;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 78.097176,60.818852 c -2.920086,1.508602 -3.954584,0.938719 -6.402612,0.984862"
+         id="path5221-6-1-1"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+      <path
+         style="display:inline;fill:none;stroke:#808080;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 55.337564,52.950173 c -1.327381,-0.348193 -2.67286,-0.515851 -5.000346,0.75441"
+         id="path5332-67"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+      <path
+         style="fill:#404040;stroke:#404040;stroke-width:0.26458332px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         d="m 59.303184,63.620067 c 0.01031,0.964518 -0.129001,2.346095 0.984609,2.223868 -1.199008,0.131934 -0.865176,0.0711 -2.036938,0.0059 1.089318,0.09039 0.905944,-1.274292 1.052329,-2.229768 z"
+         id="path5487"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccc"
+         inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+      <circle
+         r="1.1804299"
+         cy="57.294121"
+         cx="-63.985493"
+         id="circle5179-3"
+         style="display:inline;opacity:1;vector-effect:none;fill:#404040;fill-opacity:1;fill-rule:nonzero;stroke:#404040;stroke-width:0.20774508;paint-order:markers stroke fill"
+         inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96"
+         transform="scale(-1,1)" />
+      <circle
+         r="0.2198219"
+         cy="56.76376"
+         cx="-64.578255"
+         id="circle5181-5"
+         style="display:inline;opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#404040;stroke-width:0.03868669;paint-order:markers stroke fill"
+         inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96"
+         transform="scale(-1,1)" />
+      <g
+         transform="matrix(-0.83101498,0,0,0.83101498,109.50867,9.699632)"
+         style="display:inline;stroke-width:1.20334768"
+         id="g1079-6">
+        <path
+           sodipodi:nodetypes="ccsc"
+           inkscape:connector-curvature="0"
+           id="path1021-7"
+           d="m 58.08639,60.233658 c -0.114597,0.110586 -1.971044,-0.02982 -3.205651,0.196016 0,-0.305949 2.74414,-4.07303 2.811713,-3.690811 0.280659,1.5875 0.588244,3.387283 0.393938,3.494795 z"
+           style="opacity:1;vector-effect:none;fill:#404040;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.55955666;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill" />
+        <path
+           sodipodi:nodetypes="ccsc"
+           inkscape:connector-curvature="0"
+           id="path1021-9-4"
+           d="m 50.360604,54.150296 c 0.08207,-0.136477 3.272895,-0.806824 4.219894,-0.549378 0.07919,0.295523 -3.25687,4.808184 -3.421067,4.456478 -0.68197,-1.460769 -0.958686,-3.752962 -0.798827,-3.9071 z"
+           style="display:inline;opacity:1;vector-effect:none;fill:#404040;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.55955666;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill" />
+        <path
+           sodipodi:nodetypes="ssscss"
+           inkscape:connector-curvature="0"
+           id="circle5177-5"
+           d="m 57.55069,56.97826 c 0,1.76842 -1.433588,3.202008 -3.202008,3.202008 -1.76842,0 -3.202007,-1.433588 -3.202007,-3.202008 0,-0.88421 0.358397,-1.684712 0.937846,-2.264161 0.579449,-0.57945 1.379951,-0.937847 2.264161,-0.937847 1.76842,0 3.202008,1.433588 3.202008,3.202008 z"
+           style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#404040;stroke-width:0.67868811;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill" />
+        <circle
+           inkscape:export-ydpi="96"
+           inkscape:export-xdpi="96"
+           inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+           style="opacity:1;vector-effect:none;fill:#404040;fill-opacity:1;fill-rule:nonzero;stroke:#404040;stroke-width:0.24998957;paint-order:markers stroke fill"
+           id="circle5179-6"
+           cx="54.473778"
+           cy="57.216396"
+           r="1.1804298" />
+        <circle
+           inkscape:export-ydpi="96"
+           inkscape:export-xdpi="96"
+           inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+           style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#404040;stroke-width:0.04655354;paint-order:markers stroke fill"
+           id="circle5181-0"
+           cx="53.88102"
+           cy="56.686035"
+           r="0.2198219" />
+      </g>
+      <g
+         id="g1079-62"
+         transform="matrix(-0.83101497,0,0,0.83101497,109.50867,9.6996326)"
+         style="display:inline;stroke-width:1.20334768">
+        <path
+           sodipodi:nodetypes="ccsc"
+           inkscape:connector-curvature="0"
+           id="path1021-72"
+           d="m 58.08639,60.233658 c -0.114597,0.110586 -1.971044,-0.02982 -3.205651,0.196016 0,-0.305949 2.74414,-4.07303 2.811713,-3.690811 0.280659,1.5875 0.588244,3.387283 0.393938,3.494795 z"
+           style="opacity:1;vector-effect:none;fill:#404040;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.55955666;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill" />
+        <path
+           sodipodi:nodetypes="ccsc"
+           inkscape:connector-curvature="0"
+           id="path1021-9-2"
+           d="m 50.360604,54.150296 c 0.08207,-0.136477 3.272895,-0.806824 4.219894,-0.549378 0.07919,0.295523 -3.25687,4.808184 -3.421067,4.456478 -0.68197,-1.460769 -0.958686,-3.752962 -0.798827,-3.9071 z"
+           style="display:inline;opacity:1;vector-effect:none;fill:#404040;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.55955666;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill" />
+        <path
+           sodipodi:nodetypes="ssscss"
+           inkscape:connector-curvature="0"
+           id="circle5177-6"
+           d="m 57.55069,56.97826 c 0,1.76842 -1.433588,3.202008 -3.202008,3.202008 -1.76842,0 -3.202007,-1.433588 -3.202007,-3.202008 0,-0.88421 0.358397,-1.684712 0.937846,-2.264161 0.579449,-0.57945 1.379951,-0.937847 2.264161,-0.937847 1.76842,0 3.202008,1.433588 3.202008,3.202008 z"
+           style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#404040;stroke-width:0.67868811;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill" />
+        <circle
+           inkscape:export-ydpi="96"
+           inkscape:export-xdpi="96"
+           inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+           style="opacity:1;vector-effect:none;fill:#404040;fill-opacity:1;fill-rule:nonzero;stroke:#404040;stroke-width:0.24998957;paint-order:markers stroke fill"
+           id="circle5179-0"
+           cx="54.473778"
+           cy="57.216396"
+           r="1.1804298" />
+        <circle
+           inkscape:export-ydpi="96"
+           inkscape:export-xdpi="96"
+           inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+           style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#404040;stroke-width:0.04655354;paint-order:markers stroke fill"
+           id="circle5181-1"
+           cx="53.88102"
+           cy="56.686035"
+           r="0.2198219" />
+      </g>
+      <path
+         style="display:inline;fill:none;stroke:#808080;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 63.121697,53.014768 c 1.327381,-0.348193 2.67286,-0.515851 5.000346,0.75441"
+         id="path5332-67-7"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+    </g>
+  </g>
+  <g
+     style="display:inline"
+     inkscape:label="Bas Cat OG"
+     id="g1019"
+     inkscape:groupmode="layer">
+    <g
+       style="display:none"
+       inkscape:label="Ears"
+       id="g925"
+       inkscape:groupmode="layer"
+       sodipodi:insensitive="true">
+      <g
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+         transform="translate(-0.26458331)"
+         id="g919"
+         style="display:inline">
+        <path
+           style="fill:#bfa0df;stroke:#808080;stroke-width:0.50270832;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 53.027596,48.796706 c 1.204454,-0.62112 2.381921,-1.038842 3.883968,-1.427063 0,0 -2.571189,-2.312882 -12.324318,-3.433076 h -2e-6 c -1.553025,7.403713 0.05457,12.570847 0.05457,12.570847 0.791684,-0.944157 0.410986,-0.841998 1.260259,-1.741086"
+           id="path913"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccccc" />
+        <path
+           style="display:inline;fill:#ffc0c0;stroke:none;stroke-width:0.33456793;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 44.882725,54.579604 c 0,0 7.582658,-8.16608 0.156206,-9.880456 -0.294055,1.989092 -0.378149,2.865492 -0.524218,5.662557"
+           id="path915"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="ccc" />
+        <path
+           style="display:inline;fill:none;stroke:#808080;stroke-width:0.53500003;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 45.902073,54.766328 c 0,0 7.514791,-9.048568 -1.314827,-10.829761"
+           id="path917"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
+      </g>
+      <path
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+         sodipodi:nodetypes="cccccc"
+         inkscape:connector-curvature="0"
+         id="path921"
+         d="m 65.867432,48.624671 c -1.204454,-0.62112 -2.178604,-1.056734 -3.680651,-1.444955 0,0 2.783801,-2.454623 12.536931,-3.574817 h 2e-6 c 1.553025,7.403713 -0.05457,12.570847 -0.05457,12.570847 -0.791685,-0.944157 -0.410986,-0.841998 -1.26026,-1.741086"
+         style="display:inline;fill:#bfa0df;stroke:#808080;stroke-width:0.50270832;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+         style="display:inline;fill:#404040;stroke:#404040;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 59.315399,64.497561 c -0.01732,0.847965 -0.0052,1.464848 -0.679162,1.403551 l 1.401912,-0.03248 c -0.673925,0.0613 -0.670705,-0.523104 -0.699935,-1.076545 l -0.03503,-1.172018"
+         id="path923"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc" />
+    </g>
+    <g
+       style="display:none"
+       inkscape:label="LLegs"
+       id="g931"
+       inkscape:groupmode="layer"
+       sodipodi:insensitive="true">
+      <path
+         inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         sodipodi:nodetypes="scass"
+         inkscape:connector-curvature="0"
+         id="path927"
+         d="m 55.069593,76.067586 c 1.791981,6.723689 6.697411,8.235563 7.850291,4.665499 0.49575,-3.016804 -1.72244,-1.601638 -2.40167,-2.55199 -1.3881,-1.942196 -1.57289,-5.981173 -3.34519,-6.332483 -1.772302,-0.35131 -3.046233,0.681481 -2.103431,4.218974 z"
+         style="display:inline;fill:#c0a0df;stroke:#808080;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         sodipodi:nodetypes="acccccaa"
+         inkscape:connector-curvature="0"
+         id="path929"
+         d="m 41.719162,67.233523 c -1.98091,-0.944752 -5.849235,-1.207456 -6.269184,2.011561 -0.156717,2.450478 2.244632,3.546593 1.812581,6.052434 0.22005,1.994022 -2.430941,4.395767 0.04085,5.7867 1.773327,1.060746 4.36431,2.268733 6.1411,0.569792 1.948601,-2.353854 -2.550381,-2.251964 -2.260865,-4.226931 0.457609,-2.255593 1.982051,-4.43549 1.862743,-6.774389 -0.06228,-1.220989 -0.223725,-2.892878 -1.327225,-3.419167 z"
+         style="display:inline;fill:#c0a0df;stroke:#808080;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       style="display:none"
+       inkscape:label="Body"
+       id="g937"
+       inkscape:groupmode="layer"
+       sodipodi:insensitive="true">
+      <path
+         inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         sodipodi:nodetypes="ccscccscccccccccccc"
+         inkscape:connector-curvature="0"
+         id="path933"
+         d="m 18.307806,40.051952 c -1.442882,-0.113863 -1.6959,0.778626 -1.548569,1.728646 4.203259,4.181907 13.575522,3.673775 17.398955,8.984637 1.464641,2.03443 -3.013709,5.034161 -3.931499,6.410932 -0.685573,0.703795 -1.228855,1.642393 -1.222656,2.792969 -4e-6,0.0013 -4e-6,0.0026 0,0.0039 0.0097,0.86652 0.118619,1.850042 0.486328,2.757813 0.367709,0.907771 1.035276,1.760559 2.089844,2.166016 0.0078,0.0027 0.01558,0.0053 0.02344,0.0078 1.449038,0.496157 2.798642,0.407608 3.58789,1.087891 0.229391,0.198013 0.561869,0.221079 0.816406,0.05664 0.2581,-0.166146 0.470187,-0.298657 0.673828,-0.378906 0.17415,-0.06849 0.312544,-0.205468 0.382813,-0.378906 0.187202,-0.460581 0.0595,-1.076319 -0.257823,-1.386697 -0.317319,-0.310378 -0.675953,-0.422757 -1.027343,-0.517578 -1.788994,-0.336096 -3.819331,-0.81428 -4.025391,-2.687498 -0.0049,-0.0532 -0.01606,-0.105646 -0.0332,-0.15625 0.36866,-5.827206 6.483543,-5.749587 4.379128,-10.672513 C 34.439028,46.924511 20.97136,40.226236 18.307806,40.051952 Z"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#c0a0df;fill-opacity:1;fill-rule:nonzero;stroke:#808080;stroke-width:1.06500006;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+      <path
+         inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         sodipodi:nodetypes="csssssc"
+         inkscape:connector-curvature="0"
+         id="path935"
+         d="M 46.108712,56.551329 H 52.5579 c 6.774339,0 12.22805,4.094182 12.22805,10.494392 0,6.40021 -3.875145,11.552725 -12.22805,11.552725 h -6.449188 c -6.774339,0 -12.228049,-5.152515 -12.228049,-11.552725 0,-6.40021 5.796956,-9.303767 12.228049,-10.494392 z"
+         style="opacity:1;vector-effect:none;fill:#c0a0df;fill-opacity:1;fill-rule:nonzero;stroke:#808080;stroke-width:0.96500003;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill" />
+    </g>
+    <g
+       style="display:none"
+       inkscape:label="RLegs"
+       id="g943"
+       inkscape:groupmode="layer"
+       sodipodi:insensitive="true">
+      <path
+         inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         sodipodi:nodetypes="acccccaa"
+         inkscape:connector-curvature="0"
+         id="path939"
+         d="m 40.790729,68.179922 c -1.98091,-0.944752 -5.849235,-1.207456 -6.269184,2.011561 -0.156717,2.450478 2.244632,3.546593 1.812581,6.052434 0.22005,1.994022 -2.430941,4.395767 0.04085,5.7867 1.773327,1.060746 4.36431,2.268733 6.1411,0.569792 1.948601,-2.353854 -2.550381,-2.251964 -2.260865,-4.226931 0.457609,-2.255593 1.982051,-4.43549 1.862743,-6.774389 -0.06228,-1.220989 -0.223725,-2.892878 -1.327225,-3.419167 z"
+         style="display:inline;fill:#c0a0df;stroke:#808080;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         sodipodi:nodetypes="scass"
+         inkscape:connector-curvature="0"
+         id="path941"
+         d="m 53.949093,77.355009 c 1.791978,6.723689 6.69741,8.235563 7.850289,4.665498 0.49575,-3.016804 -1.722441,-1.601638 -2.401667,-2.55199 -1.388105,-1.942196 -1.572889,-5.981172 -3.345191,-6.332482 -1.772302,-0.35131 -3.046233,0.681481 -2.103431,4.218974 z"
+         style="display:inline;fill:#c0a0df;stroke:#808080;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       style="display:inline"
+       inkscape:label="Head"
+       id="g967"
+       inkscape:groupmode="layer">
+      <path
+         sodipodi:nodetypes="sssssss"
+         inkscape:connector-curvature="0"
+         id="path945"
+         d="m 280.29891,63.935603 h 4.40995 c 10.03156,0 18.39409,7.34238 18.10751,17.11063 -0.20045,6.83248 -8.07595,13.93562 -18.10751,13.93562 h -4.40995 c -10.03156,0 -16.9048,-6.56861 -18.10751,-13.93562 -1.57457,-9.64477 8.07595,-17.11063 18.10751,-17.11063 z"
+         style="opacity:1;vector-effect:none;fill:#b0a0df;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.51099998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill" />
+      <rect
+         rx="18.107513"
+         y="0.86535305"
+         x="292.12561"
+         height="35.279587"
+         width="40.624969"
+         id="rect947"
+         style="opacity:1;vector-effect:none;fill:#ff6600;fill-opacity:1;fill-rule:nonzero;stroke:#ac9393;stroke-width:0.51099998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+         ry="18.107513" />
+      <path
+         sodipodi:nodetypes="cccasccccc"
+         inkscape:connector-curvature="0"
+         id="path949"
+         d="m 288.36589,66.888513 c -0.28486,-0.12008 -0.56343,-1.11137 0.67735,-2.31776 0.56968,-0.56744 1.35017,-1.09095 2.3192,-1.50896 1.68426,-0.7301 3.96131,-1.31131 6.02649,-1.37527 2.33883,-0.0724 4.44508,0.67063 6.91911,1.13187 0.57128,0.10654 1.13781,0.21389 1.6924,0.31986 l 10e-6,1e-5 c -1.30858,8.55765 -2.99879,14.63651 -4.42411,14.32497 -10.31712,-7.51814 -7.94787,-7.01826 -13.21043,-10.5747 z"
+         style="display:inline;fill:#b0a0df;fill-opacity:1;stroke-width:0.87818927" />
+      <g
+         transform="rotate(4.7265706,696.57019,2087.0008)"
+         id="g955">
+        <path
+           style="display:inline;fill:#ff8080;fill-opacity:1;stroke-width:0.87818927"
+           d="m 124.06413,106.43102 c -0.29378,-0.0962 -0.65308,-1.06116 0.48408,-2.36568 0.52098,-0.61246 1.25569,-1.1985 2.18697,-1.69493 1.61837,-0.86641 3.8398,-1.63328 5.89268,-1.86719 2.32491,-0.26492 4.48523,0.30208 6.98884,0.55789 0.57811,0.0591 1.15156,0.11939 1.713,0.17931 h 1e-5 c -0.59897,8.63639 -4.4795,8.56857 -5.92564,8.37555 -5.54909,-0.95806 -5.80219,-0.0742 -11.3399,-3.18493 z"
+           id="path951"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccasccccc" />
+        <path
+           style="display:inline;fill:#bf8080;fill-opacity:1;stroke:none;stroke-width:0.11923876px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 123.44992,105.03723 c 0.17868,-0.59229 -0.0389,0.33263 1.09828,-0.97189 0.52098,-0.61246 1.25568,-1.1985 2.18696,-1.69493 1.61837,-0.86641 3.8398,-1.63328 5.89268,-1.86719 2.32491,-0.26492 4.48523,0.30208 6.98885,0.55789 0.57812,0.0591 1.15156,0.11939 1.713,0.17931 h 1e-5 c -0.59897,8.63638 -1.85341,14.24324 -3.29955,14.05021 -1.48636,-0.1984 -0.63913,-5.44446 1.11823,-12.17146 v 0 c -0.40088,0.1051 -0.80967,0.21228 -1.21659,0.31758 -1.7703,0.45818 -3.37085,0.84555 -4.95515,1.1215 -2.16746,0.15599 -3.55557,0.28249 -5.05625,0.61216 -0.85091,0.19002 -1.38864,0.32613 -1.94638,0.54375 -0.96234,-0.13483 -2.34123,0.50577 -2.52409,-0.67693 z"
+           id="path953"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccasccsccccccc" />
+      </g>
+      <path
+         sodipodi:nodetypes="cccasccccc"
+         inkscape:connector-curvature="0"
+         id="path957"
+         d="m 276.18726,66.978423 c 0.28485,-0.12008 0.56343,-1.11136 -0.67736,-2.31775 -0.56968,-0.56744 -1.35017,-1.09096 -2.3192,-1.50896 -1.68426,-0.7301 -3.96131,-1.31131 -6.02648,-1.37527 -2.33884,-0.0725 -4.44509,0.67063 -6.91912,1.13187 -0.57127,0.10653 -1.1378,0.21388 -1.69239,0.31986 h -10e-6 c 1.30857,8.55766 2.99878,14.63651 4.42411,14.32498 10.31711,-7.51815 7.94787,-7.01826 13.21042,-10.5747 z"
+         style="display:inline;fill:#b0a0df;fill-opacity:1;stroke-width:0.87818927" />
+      <g
+         transform="matrix(-0.99659928,0.08240069,0.08240069,0.99659928,390.21401,-50.210642)"
+         id="g963">
+        <path
+           style="display:inline;fill:#ff8080;fill-opacity:1;stroke-width:0.87818927"
+           d="m 132.79989,108.6865 c -0.29378,-0.0962 -9.38884,-3.31664 -8.25168,-4.62116 0.52098,-0.61246 1.25569,-1.1985 2.18697,-1.69493 1.61837,-0.86641 3.8398,-1.63328 5.89268,-1.86719 2.32491,-0.26492 4.48523,0.30208 6.98884,0.55789 0.57811,0.0591 1.15156,0.11939 1.713,0.17931 h 1e-5 c -0.59897,8.63639 -1.7249,13.50331 -3.17104,13.31029 -2.33019,-0.28986 -6.12744,-4.90055 -5.35878,-5.86421 z"
+           id="path959"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccascccc" />
+        <path
+           style="display:inline;fill:#bf8080;fill-opacity:1;stroke:none;stroke-width:0.11923876px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 123.44992,105.03723 c 0.17868,-0.59229 -0.0389,0.33263 1.09828,-0.97189 0.52098,-0.61246 1.25568,-1.1985 2.18696,-1.69493 1.61837,-0.86641 3.8398,-1.63328 5.89268,-1.86719 2.32491,-0.26492 4.48523,0.30208 6.98885,0.55789 0.57812,0.0591 1.15156,0.11939 1.713,0.17931 h 1e-5 c -0.59897,8.63638 -1.85341,14.24324 -3.29955,14.05021 -1.48636,-0.1984 -0.63913,-5.44446 1.11823,-12.17146 v 0 c -0.40088,0.1051 -0.80967,0.21228 -1.21659,0.31758 -1.7703,0.45818 -3.37085,0.84555 -4.95515,1.1215 -2.16746,0.15599 -3.55557,0.28249 -5.05625,0.61216 -0.85091,0.19002 -1.38864,0.32613 -1.94638,0.54375 -0.96234,-0.13483 -2.34123,0.50577 -2.52409,-0.67693 z"
+           id="path961"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccasccsccccccc" />
+      </g>
+      <path
+         inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         sodipodi:nodetypes="sssssss"
+         inkscape:connector-curvature="0"
+         id="path965"
+         d="m 57.917923,47.511384 h 3.300387 c 7.507572,0 13.766051,5.495002 13.551576,12.805516 -0.150016,5.113396 -6.044004,9.635602 -13.551576,9.635602 h -3.300387 c -7.507573,0 -12.651473,-4.122167 -13.551575,-9.635602 -1.178401,-7.218102 6.044002,-12.805516 13.551575,-12.805516 z"
+         style="opacity:1;vector-effect:none;fill:#bfa0df;fill-opacity:1;fill-rule:nonzero;stroke:#808080;stroke-width:1.005;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill" />
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="g1017"
+       inkscape:label="Face"
+       style="display:inline">
+      <g
+         id="g1180"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96">
+        <circle
+           r="3.2020078"
+           cy="56.97826"
+           cx="54.348682"
+           id="circle969"
+           style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#404040;stroke-width:0.56400001;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill"
+           inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+           inkscape:export-xdpi="96"
+           inkscape:export-ydpi="96" />
+        <circle
+           r="1.1804298"
+           cy="57.216396"
+           cx="54.473778"
+           id="circle971"
+           style="opacity:1;vector-effect:none;fill:#404040;fill-opacity:1;fill-rule:nonzero;stroke:#404040;stroke-width:0.20774508;paint-order:markers stroke fill"
+           inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+           inkscape:export-xdpi="96"
+           inkscape:export-ydpi="96" />
+        <circle
+           r="0.2198219"
+           cy="56.686035"
+           cx="53.88102"
+           id="circle973"
+           style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#404040;stroke-width:0.03868669;paint-order:markers stroke fill"
+           inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+           inkscape:export-xdpi="96"
+           inkscape:export-ydpi="96" />
+      </g>
+      <g
+         id="g1185"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96">
+        <circle
+           r="3.2020078"
+           cy="57.073917"
+           cx="64.137741"
+           id="circle975"
+           style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#404040;stroke-width:0.56400001;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill"
+           inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+           inkscape:export-xdpi="96"
+           inkscape:export-ydpi="96" />
+        <circle
+           r="1.1804298"
+           cy="57.312054"
+           cx="64.262833"
+           id="circle977"
+           style="opacity:1;vector-effect:none;fill:#404040;fill-opacity:1;fill-rule:nonzero;stroke:#404040;stroke-width:0.20774508;paint-order:markers stroke fill"
+           inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+           inkscape:export-xdpi="96"
+           inkscape:export-ydpi="96" />
+        <circle
+           r="0.2198219"
+           cy="56.781693"
+           cx="63.670071"
+           id="circle979"
+           style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#404040;stroke-width:0.03868669;paint-order:markers stroke fill"
+           inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+           inkscape:export-xdpi="96"
+           inkscape:export-ydpi="96" />
+      </g>
+      <path
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path997"
+         d="m 41.897143,58.29963 c 2.920086,1.508602 3.726455,0.93536 6.056366,1.453975"
+         style="fill:none;stroke:#808080;stroke-width:0.465;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path999"
+         d="m 41.176785,59.522846 c 2.920086,1.508602 4.841509,0.761889 7.17142,1.280504"
+         style="display:inline;fill:none;stroke:#808080;stroke-width:0.465;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path1001"
+         d="m 41.602008,60.609528 c 2.920086,1.508602 3.954584,0.938718 6.402612,0.984862"
+         style="display:inline;fill:none;stroke:#808080;stroke-width:0.465;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path1003"
+         d="m 77.802041,58.508954 c -2.920086,1.508602 -3.726455,0.93536 -6.056366,1.453975"
+         style="display:inline;fill:none;stroke:#808080;stroke-width:0.465;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path1005"
+         d="m 78.522399,59.73217 c -2.920086,1.508602 -4.841509,0.761889 -7.17142,1.280504"
+         style="display:inline;fill:none;stroke:#808080;stroke-width:0.465;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path1007"
+         d="m 78.097176,60.818852 c -2.920086,1.508602 -3.954584,0.938719 -6.402612,0.984862"
+         style="display:inline;fill:none;stroke:#808080;stroke-width:0.465;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path1009"
+         d="m 52.911941,52.213168 c -0.996652,0.280192 -2.041436,0.440058 -2.551337,1.937128"
+         style="display:inline;fill:none;stroke:#808080;stroke-width:0.365;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" />
+      <path
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path1011"
+         d="m 65.387693,52.231897 c 0.996652,0.280192 2.041436,0.440058 2.551337,1.937128"
+         style="display:inline;fill:none;stroke:#808080;stroke-width:0.365;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" />
+      <g
+         id="g1196"
+         transform="translate(0.09921875,-1.8190104)"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96">
+        <path
+           sodipodi:nodetypes="cc"
+           inkscape:connector-curvature="0"
+           id="path981"
+           d="m 55.726373,65.213766 c 2.038259,0.642544 3.615455,1.20677 7.150182,-0.02638"
+           style="fill:none;stroke:#404040;stroke-width:0.26458332px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+           inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+           inkscape:export-xdpi="96"
+           inkscape:export-ydpi="96" />
+        <path
+           sodipodi:nodetypes="aaca"
+           inkscape:connector-curvature="0"
+           id="path983"
+           d="m 58.174178,61.905291 c 0.380348,-0.654816 1.89316,-0.65581 2.271792,0 0.380928,0.659787 -0.644238,1.817198 -1.142786,1.979361 -0.609229,-0.302667 -1.510512,-1.32255 -1.129006,-1.979361 z"
+           style="fill:#404040;stroke:#404040;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+           inkscape:export-xdpi="96"
+           inkscape:export-ydpi="96" />
+        <ellipse
+           ry="0.099721096"
+           rx="0.080330886"
+           cy="63.876854"
+           cx="58.155788"
+           id="ellipse985"
+           style="opacity:1;vector-effect:none;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:#808080;stroke-width:0.05557505;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill"
+           inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+           inkscape:export-xdpi="96"
+           inkscape:export-ydpi="96" />
+        <ellipse
+           ry="0.099721096"
+           rx="0.080330886"
+           cy="64.40612"
+           cx="57.631401"
+           id="ellipse987"
+           style="opacity:1;vector-effect:none;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:#808080;stroke-width:0.05557505;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill"
+           inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+           inkscape:export-xdpi="96"
+           inkscape:export-ydpi="96" />
+        <ellipse
+           ry="0.099721096"
+           rx="0.080330886"
+           cy="64.453369"
+           cx="58.281048"
+           id="ellipse989"
+           style="opacity:1;vector-effect:none;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:#808080;stroke-width:0.05557505;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill"
+           inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+           inkscape:export-xdpi="96"
+           inkscape:export-ydpi="96" />
+        <ellipse
+           transform="scale(-1,1)"
+           ry="0.099721096"
+           rx="0.080330886"
+           cy="63.899345"
+           cx="-60.142635"
+           id="ellipse991"
+           style="opacity:1;vector-effect:none;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:#808080;stroke-width:0.05557505;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill"
+           inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+           inkscape:export-xdpi="96"
+           inkscape:export-ydpi="96" />
+        <ellipse
+           transform="scale(-1,1)"
+           ry="0.099721096"
+           rx="0.080330886"
+           cy="64.428612"
+           cx="-60.667023"
+           id="ellipse993"
+           style="opacity:1;vector-effect:none;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:#808080;stroke-width:0.05557505;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill"
+           inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+           inkscape:export-xdpi="96"
+           inkscape:export-ydpi="96" />
+        <ellipse
+           transform="scale(-1,1)"
+           ry="0.099721096"
+           rx="0.080330886"
+           cy="64.475861"
+           cx="-60.017376"
+           id="ellipse995"
+           style="opacity:1;vector-effect:none;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:#808080;stroke-width:0.05557505;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill"
+           inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+           inkscape:export-xdpi="96"
+           inkscape:export-ydpi="96" />
+        <path
+           style="fill:#404040;stroke:#404040;stroke-width:0.26458332px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+           d="m 59.303184,63.620067 c 0.01031,0.964518 -0.129001,2.346095 0.984609,2.223868 -1.199008,0.131934 -0.865176,0.0711 -2.036938,0.0059 1.089318,0.09039 0.905944,-1.274292 1.052329,-2.229768 z"
+           id="path1013"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccc"
+           inkscape:export-filename="E:\Dropbox\Inkscape work\Cat Game\BasCatWhole.png"
+           inkscape:export-xdpi="96"
+           inkscape:export-ydpi="96" />
+      </g>
+    </g>
+  </g>
+</svg>
