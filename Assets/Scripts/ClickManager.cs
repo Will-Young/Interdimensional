@@ -31,70 +31,50 @@ public class ClickManager : MonoBehaviour
     [SerializeField] private Animator stampAnimator;
     [SerializeField] private int MaxNumberOfDeliveringCats;
 
-    private int totalNumberOfStampingCats; // infinite
-    private int totalNumberOfDeliveringCats; // maxed out 10
+    private int totalNumberOfStampingCats = 0; // infinite
+    private int totalNumberOfDeliveringCats = 1; // maxed out 10
 
-    private float totalNumberOfNewLetters;
-    private float totalNumberOfStampedLetters;
-    private float totalNumberOfDeliveredLetters;
+    private float totalNumberOfNewLetters = 0;
+    private float totalNumberOfStampedLetters = 0;
+    private float totalNumberOfDeliveredLetters = 0;
 
-    private float currentNumberOfNewLetters;
-    private float currentNumberOfStampedLetters;
-    private float currentNumberOfDeliveredLetters;
+    private float currentNumberOfNewLetters = 0;
+    private float currentNumberOfStampedLetters = 0;
+    private float currentNumberOfDeliveredLetters = 0;
+
+    private float currentIncome = 0;
+
+    private float totalIncome = 0;
 
     // 1 letter = 1 cent
 
-    private float numberOfNewLettersPerClick;
-    private float numberOfStampedLettersPerClick;
+    private float numberOfNewLettersPerClick = 1;
+    private float numberOfStampedLettersPerClick = 1;
 
-    float newLetterTicker;
-    float stampedLetterTicker;
-    float sentLetterTicker;
+    private float newLetterTicker = 0;
+    private float stampedLetterTicker = 0;
+    private float sentLetterTicker = 0;
 
-    private float newLetterPerSecond;
-    private float stampedLetterPerSecond;
-    private float sentLetterPerSecond;
+    private float newLetterPerSecond = 0;
+    private float stampedLetterPerSecond = 0;
+    private float deliveredLetterPerSecond = 0.5f;
 
-    private int totalNumberOfClicks;
+    private float totalNumberOfStampClicks = 0;
+    private float totalNumberOfPortalClicks = 0;
+
+    private float totalNumberOfStampsByCats = 0;
+    private float totalNumberOfDeliveredByCats = 0;
 
     private void Awake()
     {
         Instance = this;
-
-        newLetterTicker = 0;
-        stampedLetterTicker = 0;
-        sentLetterTicker = 0;
-    }
-
-    void Start()
-    {
-
-        // Setting up some variables, should be put into an init;
-        totalNumberOfDeliveringCats = 1;
-        totalNumberOfStampingCats = 0;
-
-        totalNumberOfNewLetters = 0;
-        totalNumberOfStampedLetters = 0;
-        totalNumberOfDeliveredLetters = 0;
-
-        currentNumberOfNewLetters = 0;
-        currentNumberOfStampedLetters = 0;
-        currentNumberOfDeliveredLetters = 0;
-
-        numberOfNewLettersPerClick = 1;
-        numberOfStampedLettersPerClick = 1;
-
-        // automation variables
-        newLetterPerSecond = 0;
-        stampedLetterPerSecond = 0;
-        sentLetterPerSecond = 0.1f;
     }
 
     private void Update()
     {
         NewLetters_Tick();
         StampedLetters_Tick();
-        SentLetters_Tick();
+        DeliveredLetters_Tick();
     }
 
     private void NewLetters_Tick()
@@ -123,18 +103,18 @@ public class ClickManager : MonoBehaviour
 
             if (lettersToAdd > currentNumberOfNewLetters) return;
 
-            AddStampedLetters(lettersToAdd);
+            AddStampedLetters(lettersToAdd, false);
         }
     }
 
 
-    private void SentLetters_Tick()
+    private void DeliveredLetters_Tick()
     {
         sentLetterTicker += Time.deltaTime;
 
         if (sentLetterTicker >= 0.1f)
         {
-            var lettersToAdd = totalNumberOfDeliveringCats == 0 ? totalNumberOfDeliveringCats : totalNumberOfDeliveringCats * (sentLetterPerSecond / 10);
+            var lettersToAdd = totalNumberOfDeliveringCats == 0 ? totalNumberOfDeliveringCats : totalNumberOfDeliveringCats * (deliveredLetterPerSecond / 10);
 
             if (lettersToAdd > currentNumberOfStampedLetters) return;
 
@@ -152,7 +132,7 @@ public class ClickManager : MonoBehaviour
         NumberOfNewLettersChanged?.Invoke(this, EventArgs.Empty);
     }
 
-    public void AddStampedLetters(float amount)
+    public void AddStampedLetters(float amount, bool isClick)
     {
         if (currentNumberOfNewLetters <= 0)
         {
@@ -173,6 +153,15 @@ public class ClickManager : MonoBehaviour
 
         currentNumberOfStampedLetters += numOfLetters;
         totalNumberOfStampedLetters += numOfLetters;
+
+        if (isClick)
+        {
+            totalNumberOfStampClicks += numOfLetters;
+        }
+        else
+        {
+            totalNumberOfStampsByCats += numOfLetters;
+        }
 
         NumberOfNewLettersChanged?.Invoke(this, EventArgs.Empty);
         NumberOfStampedLettersChanged?.Invoke(this, EventArgs.Empty);
@@ -216,20 +205,18 @@ public class ClickManager : MonoBehaviour
 
     public void AddNewLetters_OnClick()
     {
-        totalNumberOfClicks++;
+        totalNumberOfPortalClicks += numberOfNewLettersPerClick;
         AddNewLetters(numberOfNewLettersPerClick);
     }
 
     public void AddStampedLetters_OnClick()
     {
-        totalNumberOfClicks++;
-        AddStampedLetters(numberOfStampedLettersPerClick);
+        AddStampedLetters(numberOfStampedLettersPerClick, true);
         stampAnimator.SetTrigger("ButtonPush");
     }
 
     public void IncreaseStampingCat_OnClick()
     {
-        totalNumberOfClicks++;
         // Have this number be changed in the future to allow for more cats to be purchased at once
         var numOfCats = 1;
         AddStampingCats(numOfCats);
@@ -238,7 +225,6 @@ public class ClickManager : MonoBehaviour
 
     public void IncreaseDeliveryCat_OnClick()
     {
-        totalNumberOfClicks++;
         AddDeliveringCat();
     }
 
@@ -278,7 +264,7 @@ public class ClickManager : MonoBehaviour
 
     public void IncreaseRateOfDeliveredLetters(float increasedRate)
     {
-        sentLetterPerSecond += increasedRate;
+        deliveredLetterPerSecond += increasedRate;
     }
 
     public void IncreaseNumberOfLettersStampedPerClick(int num)
@@ -290,5 +276,15 @@ public class ClickManager : MonoBehaviour
     {
         numberOfNewLettersPerClick += num;
     }
+
+    public float GetTotalIncome() => totalIncome;
+
+    public float GetTotalNumberOfStampedLettersClickedByYou() => totalNumberOfStampClicks;
+
+    public float GetTotalNumberOfStampedLettersByCats() => totalNumberOfStampsByCats;
+
+    public float GetNewLettersPerSecond() => newLetterPerSecond;
+    public float GetStampedLettersPerSecond() => stampedLetterPerSecond;
+    public float GetDeliveredLettersPerSecond() => deliveredLetterPerSecond;
 
 }

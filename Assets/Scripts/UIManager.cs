@@ -7,6 +7,8 @@ using UnityEngine;
 public class UIManager : MonoBehaviour
 {
 
+    ClickManager clickManager;
+
     [SerializeField] private TextMeshProUGUI totalNumberOfStampedLetters;
     [SerializeField] private TextMeshProUGUI totalNumberOfNewLetters;
     [SerializeField] private TextMeshProUGUI totalNumberOfDeliveredLetters;
@@ -15,8 +17,27 @@ public class UIManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI numberOfStampignCatsText;
     [SerializeField] private TextMeshProUGUI numberOfDeliveryCatsText;
 
+    [SerializeField] private TextMeshProUGUI numStampingCatStat;
+    [SerializeField] private TextMeshProUGUI numDeliveringCatStat;
+    [SerializeField] private TextMeshProUGUI numLetterStampedYou;
+    [SerializeField] private TextMeshProUGUI numLetterStampedCat;
+    [SerializeField] private TextMeshProUGUI totalIncome;
+
+    [SerializeField] private TextMeshProUGUI newPerSecond;
+    [SerializeField] private TextMeshProUGUI stampedPerSecond;
+    [SerializeField] private TextMeshProUGUI deliveredPerSecond;
+
+    float refreshTimer;
+
+    private void Awake()
+    {
+        refreshTimer = 1f;
+    }
+
     void Start()
     {
+        clickManager = ClickManager.Instance;
+
         ClickManager.NumberOfStampedLettersChanged += ClickManager_NumberOfStampedLettersChanged;
         ClickManager.NumberOfNewLettersChanged += ClickManager_NumberOfNewLettersChanged;
         ClickManager.NumberOfDeliveredLettersChanged += ClickManager_NumberOfDeliveredLettersChanged;
@@ -27,12 +48,24 @@ public class UIManager : MonoBehaviour
         UpdateTotalNumberOfStampedLettersText("0");
         UpdateTotalNumberOfNewLettersText("0");
         UpdateTotalNumberOfDeliveredLettersText("0");
+
+        UpdateStatUI();
+        UpdateRateUI();
     }
 
 
     void Update()
     {
-        
+        refreshTimer -= Time.deltaTime;
+
+        if(refreshTimer <= 0)
+        {
+            refreshTimer = 1f;
+            UpdateStatUI();
+            UpdateRateUI();
+        }
+
+
     }
 
     private void ClickManager_NumberOfStampedLettersChanged(object sender, EventArgs e)
@@ -99,7 +132,20 @@ public class UIManager : MonoBehaviour
     /// Button Clicks ///
     ///               ///
 
+    private void UpdateStatUI()
+    {
+        numStampingCatStat.text = clickManager.GetNumberOfStampingCats().ToString();
+        numDeliveringCatStat.text = clickManager.GetNumberOfDeliveringCats().ToString();
+        numLetterStampedYou.text = clickManager.GetTotalNumberOfStampedLettersClickedByYou().ToString();
+        numLetterStampedCat.text = clickManager.GetTotalNumberOfStampedLettersByCats().ToString();
+        totalIncome.text = clickManager.GetTotalIncome().ToString();
+    }
 
+    private void UpdateRateUI()
+    {
+        newPerSecond.text = clickManager.GetNewLettersPerSecond().ToString();
+        stampedPerSecond.text = clickManager.GetStampedLettersPerSecond().ToString();
+        deliveredPerSecond.text = clickManager.GetDeliveredLettersPerSecond().ToString();
+    }
 
-    // Function to calculate cost of upgrade
 }
