@@ -27,6 +27,8 @@ public class UIManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI stampedPerSecond;
     [SerializeField] private TextMeshProUGUI deliveredPerSecond;
 
+    [SerializeField] private TextMeshProUGUI currentIncomeText;
+
     float refreshTimer;
 
     private void Awake()
@@ -51,6 +53,8 @@ public class UIManager : MonoBehaviour
 
         UpdateStatUI();
         UpdateRateUI();
+
+        UpdateIncomeText();
     }
 
 
@@ -63,6 +67,8 @@ public class UIManager : MonoBehaviour
             refreshTimer = 1f;
             UpdateStatUI();
             UpdateRateUI();
+
+            UpdateIncomeText();
         }
 
 
@@ -143,9 +149,14 @@ public class UIManager : MonoBehaviour
 
     private void UpdateRateUI()
     {
-        newPerSecond.text = clickManager.GetNewLettersPerSecond().ToString();
-        stampedPerSecond.text = clickManager.GetStampedLettersPerSecond().ToString();
-        deliveredPerSecond.text = clickManager.GetDeliveredLettersPerSecond().ToString();
+        newPerSecond.text = $"{clickManager.GetNewLettersPerSecond().ToString()} per second";
+        stampedPerSecond.text = $"{clickManager.GetStampedLettersPerSecond().ToString()} per second";
+        deliveredPerSecond.text = $"{clickManager.GetDeliveredLettersPerSecond().ToString()} per second";
     }
 
+
+    private void UpdateIncomeText()
+    {
+        currentIncomeText.text = $"${Math.Round(clickManager.GetCurrentIncome(), 2).ToString()}";
+    }
 }
