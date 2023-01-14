@@ -7,6 +7,8 @@ public class ClickManager : MonoBehaviour
 {
     public static ClickManager Instance { get; private set; }
 
+    
+
     public enum NumberType
     {
         StampingCat, // Number of stamping cats
@@ -17,6 +19,7 @@ public class ClickManager : MonoBehaviour
         Number
 
     }
+   
 
     public static event EventHandler NumberOfNewLettersChanged;
     public static event EventHandler NumberOfStampedLettersChanged;
@@ -25,10 +28,11 @@ public class ClickManager : MonoBehaviour
     public static event EventHandler NumberOfStampingCatsChanged;
     public static event EventHandler NumberOfDeliveringCatsChanged;
 
+    [SerializeField] private Animator stampAnimator;
+    [SerializeField] private int MaxNumberOfDeliveringCats;
+
     private int totalNumberOfStampingCats; // infinite
     private int totalNumberOfDeliveringCats; // maxed out 10
-
-    [SerializeField] private int MaxNumberOfDeliveringCats;
 
     private float totalNumberOfNewLetters;
     private float totalNumberOfStampedLetters;
@@ -220,6 +224,7 @@ public class ClickManager : MonoBehaviour
     {
         totalNumberOfClicks++;
         AddStampedLetters(numberOfStampedLettersPerClick);
+        stampAnimator.SetTrigger("ButtonPush");
     }
 
     public void IncreaseStampingCat_OnClick()
