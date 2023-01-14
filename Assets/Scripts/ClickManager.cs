@@ -56,7 +56,7 @@ public class ClickManager : MonoBehaviour
     private float sentLetterTicker = 0;
 
     private float newLetterPerSecond = 0;
-    private float stampedLetterPerSecond = 0;
+    private float stampedLetterPerSecond = 0.5f;
     private float deliveredLetterPerSecond = 0.5f;
 
     private float totalNumberOfStampClicks = 0;
@@ -186,6 +186,8 @@ public class ClickManager : MonoBehaviour
             currentNumberOfStampedLetters -= amount;
         }
 
+        AddIncome(numOfLetters/100);
+
         currentNumberOfDeliveredLetters += numOfLetters;
         totalNumberOfDeliveredLetters += numOfLetters;
 
@@ -277,6 +279,16 @@ public class ClickManager : MonoBehaviour
         numberOfNewLettersPerClick += num;
     }
 
+    public void AddIncome(float num)
+    {
+        currentIncome += num;
+    }
+
+    public void SubtractIncome(float num)
+    {
+        currentIncome -= num;
+    }
+
     public float GetTotalIncome() => totalIncome;
 
     public float GetTotalNumberOfStampedLettersClickedByYou() => totalNumberOfStampClicks;
@@ -284,7 +296,9 @@ public class ClickManager : MonoBehaviour
     public float GetTotalNumberOfStampedLettersByCats() => totalNumberOfStampsByCats;
 
     public float GetNewLettersPerSecond() => newLetterPerSecond;
-    public float GetStampedLettersPerSecond() => stampedLetterPerSecond;
-    public float GetDeliveredLettersPerSecond() => deliveredLetterPerSecond;
+    public float GetStampedLettersPerSecond() => totalNumberOfStampingCats == 0 ? totalNumberOfStampingCats : totalNumberOfStampingCats * stampedLetterPerSecond;
+    public float GetDeliveredLettersPerSecond() => totalNumberOfDeliveringCats == 0 ? deliveredLetterPerSecond : totalNumberOfDeliveringCats * deliveredLetterPerSecond;
+
+    public float GetCurrentIncome() => currentIncome;
 
 }
