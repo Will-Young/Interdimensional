@@ -4,8 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 
 [CreateAssetMenu(menuName ="StampingCatUpgrade")]
-public class StampingCatUpgradeSO : ScriptableObject
+public class StampingCatUpgradeSO : UpgradeSO
 {
-    public string Name;
+
     
 }

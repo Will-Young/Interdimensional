@@ -11,7 +11,7 @@ public class UpgradeButton : MonoBehaviour
     [SerializeField] private TextMeshProUGUI upgradeTextMesh;
     [SerializeField] private string upgradeText;
 
-
+    [SerializeField] 
 
     private int upgradeCost;
 
@@ -33,5 +33,11 @@ public class UpgradeButton : MonoBehaviour
     private void UpdateEnable()
     {
         
+    }
+
+    public int CalculateUpgradeCost()
+    {
+        // Need to be able to calculate the cost of the upgrade depending on how many letters are being brought in
+        return 0;
     }
 }
