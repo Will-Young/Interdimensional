@@ -304,6 +304,9 @@ MonoBehaviour:
   PortalEffect1: {fileID: 3995991293627710859}
   PortalEffect2: {fileID: 3995991292209290185}
   PortalEffect3: {fileID: 3995991293263103752}
+  effect1Enabled: 1
+  effect2Enabled: 1
+  effect3Enabled: 1
   Portal1_SpinSpeed: 0.3
   Portal2_SpinSpeed: 0.4
   Portal3_SpinSpeed: 0.5

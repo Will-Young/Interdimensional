@@ -9,10 +9,14 @@ public class PortalVFX : MonoBehaviour
 	[SerializeField] private GameObject PortalEffect2;
 	[SerializeField] private GameObject PortalEffect3;
 
+	public bool effect1Enabled = true;
+	public bool effect2Enabled = true;
+	public bool effect3Enabled = true;
+
 	public float Portal1_SpinSpeed = 0.3f;
 	public float Portal2_SpinSpeed = 0.4f;
 	public float Portal3_SpinSpeed = 0.5f;
-	[Range(0.1f, 100f)] public float spinMultiplier = 3;
+	[Range(0.1f, 20f)] public float spinMultiplier = 3;
 
 	private Vector4 PE1Colour;
 	private Vector4 PE2Colour;
@@ -24,8 +28,6 @@ public class PortalVFX : MonoBehaviour
 	[SerializeField, Range(0, 1)] private float _saturation = 1f;
 	[SerializeField, Range(0, 1)] private float _value = 1f;
 
-	enum colors { blue, red, green };
-
 	// Start is called before the first frame update
 	void Start()
     {
@@ -35,6 +37,10 @@ public class PortalVFX : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+		PortalEffect1.SetActive(effect1Enabled);
+		PortalEffect2.SetActive(effect2Enabled);
+		PortalEffect3.SetActive(effect3Enabled);
+
 		SpinPortal(PortalEffect1, Portal1_SpinSpeed);
 		SpinPortal(PortalEffect2, Portal2_SpinSpeed);
 		SpinPortal(PortalEffect3, Portal3_SpinSpeed);
@@ -52,7 +58,6 @@ public class PortalVFX : MonoBehaviour
 	{
 		Transform T = portal.GetComponent<Transform>();
 		float newZ = T.rotation.z + spinSpeed;
-		//T.SetLocalPositionAndRotation(T.position, new Quaternion(T.rotation.x, T.rotation.y, newZ, T.rotation.w));
 		T.Rotate(T.forward * (spinSpeed * spinMultiplier));
 	}
 
