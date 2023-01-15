@@ -3,14 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class Stamp : MonoBehaviour, IPointerClickHandler
+public class Stamp : MonoBehaviour
 {
     [SerializeField] private AudioClip _stampSound;
-
-    public void OnPointerClick(PointerEventData eventData)
-    {
-        Debug.Log("Clciked");
-    }
 
     private void OnMouseDown()
     {
@@ -19,9 +14,4 @@ public class Stamp : MonoBehaviour, IPointerClickHandler
         Debug.Log("Clicked");
     }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 }

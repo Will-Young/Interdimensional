@@ -4,9 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 
 [CreateAssetMenu(menuName ="DeliveryCatUpgrade")]
-public class DeliveryCatUpgradeSO : ScriptableObject
+public class DeliveryCatUpgradeSO : UpgradeSO
 {
-    public string Name;
     public Sprite CatHead; 
     public Sprite CatBody; 
     public DeliveryCatUpgrade.DeliveryCatType Type;
