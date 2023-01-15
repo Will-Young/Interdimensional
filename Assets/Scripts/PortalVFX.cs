@@ -9,11 +9,25 @@ public class PortalVFX : MonoBehaviour
 	[SerializeField] private GameObject PortalEffect2;
 	[SerializeField] private GameObject PortalEffect3;
 
+	public bool effect1Enabled = true;
+	public bool effect2Enabled = true;
+	public bool effect3Enabled = true;
+
 	public float Portal1_SpinSpeed = 0.3f;
 	public float Portal2_SpinSpeed = 0.4f;
 	public float Portal3_SpinSpeed = 0.5f;
-	[Range(0.1f, 10f)] public float spinMultiplier = 3;
-	
+	[Range(0.1f, 20f)] public float spinMultiplier = 3;
+
+	private Vector4 PE1Colour;
+	private Vector4 PE2Colour;
+	private Vector4 PE3Colour;
+
+	[SerializeField] private float _hueShiftSpeed1 = 0.1f;
+	[SerializeField] private float _hueShiftSpeed2 = 0.2f;
+	[SerializeField] private float _hueShiftSpeed3 = 0.3f;
+	[SerializeField, Range(0, 1)] private float _saturation = 1f;
+	[SerializeField, Range(0, 1)] private float _value = 1f;
+
 	// Start is called before the first frame update
 	void Start()
     {
@@ -23,6 +37,10 @@ public class PortalVFX : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+		PortalEffect1.SetActive(effect1Enabled);
+		PortalEffect2.SetActive(effect2Enabled);
+		PortalEffect3.SetActive(effect3Enabled);
+
 		SpinPortal(PortalEffect1, Portal1_SpinSpeed);
 		SpinPortal(PortalEffect2, Portal2_SpinSpeed);
 		SpinPortal(PortalEffect3, Portal3_SpinSpeed);
@@ -31,14 +49,39 @@ public class PortalVFX : MonoBehaviour
 		Portal2_SpinSpeed = Mathf.PingPong(Time.time / spinMultiplier, 0.4f) + 0.1f;
 		Portal3_SpinSpeed = Mathf.PingPong(Time.time / spinMultiplier, 0.5f) + 0.1f;
 
-		PortalBase.GetComponent<SpriteRenderer>().color = Color.Lerp(Color.white, Color.black, Mathf.PingPong(Time.time, 1));
+		ColourShift(PortalEffect1, _hueShiftSpeed1);
+		ColourShift(PortalEffect2, _hueShiftSpeed2);
+		ColourShift(PortalEffect3, _hueShiftSpeed3);
 	}
 
 	private void SpinPortal(GameObject portal, float spinSpeed)
 	{
 		Transform T = portal.GetComponent<Transform>();
 		float newZ = T.rotation.z + spinSpeed;
-		//T.SetLocalPositionAndRotation(T.position, new Quaternion(T.rotation.x, T.rotation.y, newZ, T.rotation.w));
-		T.Rotate(T.forward * spinSpeed);
+		T.Rotate(T.forward * (spinSpeed * spinMultiplier));
 	}
+
+	private Color ShiftHueBy(Color color, float amount)
+	{
+		// convert from RGB to HSV
+		Color.RGBToHSV(color, out float hue, out float sat, out float val);
+
+		// shift hue by amount
+		hue += amount;
+		sat = _saturation;
+		val = _value;
+
+		// convert back to RGB and return the color
+		return Color.HSVToRGB(hue, sat, val);
+	}
+
+	private void ColourShift(GameObject G, float hueShift)
+	{
+		SpriteRenderer s = G.GetComponent<SpriteRenderer>();
+		float amountToShift = (hueShift / 3) * Time.deltaTime;
+		Color newColor = ShiftHueBy(s.color, amountToShift);
+
+		s.color = newColor;
+	}
+
 }
