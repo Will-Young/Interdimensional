@@ -7,11 +7,10 @@ public class ClickManager : MonoBehaviour
 {
     public static ClickManager Instance { get; private set; }
 
-    
     [Serializable]
     public enum NumberType
     {
-        NewLettersPerClick, // 
+        NewLettersPerClick,
         StampedLettersPerClick,
         RateOfNewLetters,
         RateOfStampedLetters,
@@ -27,6 +26,8 @@ public class ClickManager : MonoBehaviour
     public static event EventHandler NumberOfDeliveringCatsChanged;
 
     public static event EventHandler RateOfNewLettersChanged;
+
+    public static event EventHandler CurrentIncomeChanged;
 
     [SerializeField] private Animator stampAnimator;
     [SerializeField] private int MaxNumberOfDeliveringCats;
@@ -105,9 +106,7 @@ public class ClickManager : MonoBehaviour
             else
             {
                 AddNewLetters(newLetterPerSecond / 10);
-            }
-            
-
+            }   
         }
     }
 
@@ -305,11 +304,15 @@ public class ClickManager : MonoBehaviour
     public void AddIncome(float num)
     {
         currentIncome += num;
+
+        CurrentIncomeChanged?.Invoke(this, EventArgs.Empty);
     }
 
     public void SubtractIncome(float num)
     {
         currentIncome -= num;
+
+        CurrentIncomeChanged?.Invoke(this, EventArgs.Empty);
     }
 
     public void SetIsPortalClicked(bool isPressed)
@@ -345,7 +348,6 @@ public class ClickManager : MonoBehaviour
     }
     public float GetStampedLettersPerSecond() => totalNumberOfStampingCats == 0 ? totalNumberOfStampingCats : totalNumberOfStampingCats * stampedLetterPerSecond;
     public float GetDeliveredLettersPerSecond() => totalNumberOfDeliveringCats == 0 ? deliveredLetterPerSecond : totalNumberOfDeliveringCats * deliveredLetterPerSecond;
-
     public float GetCurrentIncome() => currentIncome;
 
 }
