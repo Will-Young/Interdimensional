@@ -15,6 +15,7 @@ public class SoundManager : MonoBehaviour
 
     public void PlaySound(AudioClip clip)
     {
+		_effectsSource.pitch = Random.Range(0.4f, 1.6f);
         _effectsSource.PlayOneShot(clip);
     }
 
