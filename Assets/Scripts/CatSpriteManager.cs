@@ -22,18 +22,7 @@ public class CatSpriteManager : MonoBehaviour
 	// Start is called before the first frame update
 	void Start()
     {
-        _chooseSprite = new Sprite[][] { _catSprites_Blue, _catSprites_White, _catSprites_Spotty };
-
-
-		int skinRandom = Random.RandomRange(0, 2);
-
-
-
-        for ( int i = 0; i < catSprites.Length; i++ )
-        {
-            catSprites[i].sprite = _chooseSprite[skinRandom][i];
-            print("changeing " + catSprites[i].sprite + " to " + _chooseSprite[skinRandom][i]);
-        }
+        ChangeSkin();
     }
 
     // Update is called once per frame
